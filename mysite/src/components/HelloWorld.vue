@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <img src="../assets/images/site_icons/m.png">
     <p>
-      Hello there.
+      Welcome to my site.
     </p>
 
   </div>

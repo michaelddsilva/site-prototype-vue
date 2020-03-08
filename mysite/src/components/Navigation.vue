@@ -176,9 +176,9 @@ input:checked + .slider:before {
 }
 
 .progress-bar {
-height: 4px;
-background: var(--link-color);
-width: 0%;
+    height: 4px;
+    background: var(--link-color);
+    width: 0%;
 }
 
 </style>

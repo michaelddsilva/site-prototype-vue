@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="container">
 <br>
   <h1>About Me</h1>
         <div style="align-self: center">

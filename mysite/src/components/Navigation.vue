@@ -28,22 +28,33 @@
 export default {
   name: 'Navigation',
   methods: {
-    created() {
-        console.log("Navigation created.");
-    },
-    mounted() {
-        console.log("Navigation mounted.");
-    },
     toggleCSS() {
         var check = document.getElementById("toggleSwitch");
         if (check.checked) {
+            check.checked = true;
             document.documentElement.setAttribute('site-theme', 'dark');
         }
         else {
             document.documentElement.setAttribute('site-theme', 'light');
-        }    
+        }
     }
-  }
+
+  },
+
+  mounted: function() {
+        console.log("Navigation mounted.");
+        var today = new Date();
+        console.log(today);
+        var h = today.getHours(); 
+        console.log(h);   
+        if(h>18 || h <7){
+            document.getElementById("toggleSwitch").checked=true;
+            document.documentElement.setAttribute('site-theme', 'dark');
+        }
+        else {
+            document.documentElement.setAttribute('site-theme', 'light');
+        }
+    },
  
 }
 </script>

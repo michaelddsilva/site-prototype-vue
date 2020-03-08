@@ -9,7 +9,8 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                <li>Angular Framework</li>
+                <li>Angular</li>
+                <li>Vue.js</li>
             </ul>
         </div>
 

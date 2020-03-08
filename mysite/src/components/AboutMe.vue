@@ -1,10 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <img src="../assets/images/site_icons/m.png">
+    <h2>About Me</h2>
     <div class="container">
-      <h2>Welcome to my site.</h2>
-      <p>Hi my name is Michael D'Silva. Welcome to my site. I am a third year software engineering student at Western University (UWO). Here on my site you can find my experiences, projects, skills and interests. Check out my resume:</p>
     </div>
 
   </div>
@@ -37,6 +34,6 @@ a {
 }
 
 .container {
-  width: 33%;
+  width: 50%;
 }
 </style>

@@ -7,6 +7,8 @@
 
         <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
+            <b-nav-item href="https://www.linkedin.com/in/michaelddsilva" target="_blank"> <i class="fab fa-linkedin"></i></b-nav-item>
+            <b-nav-item href="https://www.github.com/michaelddsilva" target="_blank"><i class="fab fa-github"></i></b-nav-item>
             <b-nav-item href="#aboutMe">About Me</b-nav-item>
             <b-nav-item href="#experience">Experience</b-nav-item>
             <b-nav-item href="#skills">Skills</b-nav-item>

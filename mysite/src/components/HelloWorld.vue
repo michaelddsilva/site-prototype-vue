@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <img src="../assets/images/site_icons/m.png">
     <div class="container">
       <h2>Welcome to my site.</h2>
@@ -13,9 +12,7 @@
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+
 }
 </script>
 

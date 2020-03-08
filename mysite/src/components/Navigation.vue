@@ -12,10 +12,12 @@
                 <b-nav-item href="#Skills">Skills</b-nav-item>
                 <b-nav-item href="#Projects">Projects</b-nav-item>
             </b-navbar-nav>
+            <div class="switch-container">
                 <label class="switch">
                     <input class = "toggle" type="checkbox" id="toggleSwitch" v-on:click="toggleCSS()">
                     <span class="slider round"></span>
                 </label>
+            </div>
             </b-collapse>
         </b-navbar>
 
@@ -76,13 +78,16 @@ export default {
     display: none;
 }
 
+.switch-container {
+    vertical-align: middle;
+}
 
 .switch {
     position: relative;
-    top: 1em;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    padding-top: 1;
+    width: 4em;
+    height: 2em;
 }
 
 .slider {
@@ -92,7 +97,6 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 4px;
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
@@ -101,8 +105,8 @@ export default {
 .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 1.5em;
+    width: 1.5em;
     left: 4px;
     bottom: 4px;
     background-color: var(--background-color);

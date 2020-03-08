@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Navigation/>
-    <HelloWorld msg="Hello there."/>
-    <AboutMe/>
+    <HelloWorld id="HelloWorld" />
+    <AboutMe id="aboutMe" />
     <Experience/>
     <Skills/>
     <Projects/>

@@ -14,7 +14,7 @@
         </b-navbar-nav>
         <div class="switch-container">
             <label class="switch">
-                <input class = "toggle" type="checkbox" id="toggleSwitch" v-on:click="toggleCSS()">
+                <input type="checkbox" id="toggleSwitch" v-on:click="toggleCSS()">
                 <span class="slider round"></span>
             </label>
         </div>
@@ -115,6 +115,12 @@ mounted: function() {
     padding-top: 1;
     width: 4em;
     height: 2em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .slider {

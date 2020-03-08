@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Navigation/>
     <HelloWorld msg="Hello there."/>
     <AboutMe/>
     <Experience/>
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+import Navigation from './components/Navigation.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import AboutMe from './components/AboutMe.vue'
 import Experience from './components/Experience.vue'
@@ -18,6 +20,7 @@ import Projects from './components/Projects.vue'
 export default {
   name: 'App',
   components: {
+    Navigation,
     HelloWorld,
     AboutMe,
     Experience,
@@ -28,12 +31,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './assets/styles/styles.css';
 </style>

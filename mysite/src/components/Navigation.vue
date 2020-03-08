@@ -1,33 +1,44 @@
 <template>
-  <div class="topnav">
-        <b-navbar toggleable="lg" type="dark" variant="faded">
-            <b-navbar-brand href="#helloWorld"><b>michaeldsilva</B></b-navbar-brand>
+<div class="topnav">
+    <b-navbar toggleable="lg" type="dark" variant="faded">
+        <b-navbar-brand href="#helloWorld"><b>michaeldsilva</B></b-navbar-brand>
 
-            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-            <b-collapse id="nav-collapse" is-nav>
-            <b-navbar-nav>
-                <b-nav-item href="#aboutMe">About Me</b-nav-item>
-                <b-nav-item href="#experience">Experience</b-nav-item>
-                <b-nav-item href="#skills">Skills</b-nav-item>
-                <b-nav-item href="#projects">Projects</b-nav-item>
-            </b-navbar-nav>
-            <div class="switch-container">
-                <label class="switch">
-                    <input class = "toggle" type="checkbox" id="toggleSwitch" v-on:click="toggleCSS()">
-                    <span class="slider round"></span>
-                </label>
+        <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+            <b-nav-item href="#aboutMe">About Me</b-nav-item>
+            <b-nav-item href="#experience">Experience</b-nav-item>
+            <b-nav-item href="#skills">Skills</b-nav-item>
+            <b-nav-item href="#projects">Projects</b-nav-item>
+        </b-navbar-nav>
+        <div class="switch-container">
+            <label class="switch">
+                <input class = "toggle" type="checkbox" id="toggleSwitch" v-on:click="toggleCSS()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        </b-collapse>
+    </b-navbar>
+    <div class="progress-container">
+        <div class="progress-box">
+            <div class="progress-bar" id="myBar">
             </div>
-            </b-collapse>
-        </b-navbar>
-
-  </div>
+        </div>
+    </div> 
+</div>
 </template>
 
 <script>
 export default {
-  name: 'Navigation',
-  methods: {
+name: 'Navigation',
+created () {
+    window.addEventListener('scroll', this.handleScroll);
+},
+destroyed () {
+    window.removeEventListener('scroll', this.handleScroll);
+},
+methods: {
     toggleCSS() {
         var check = document.getElementById("toggleSwitch");
         if (check.checked) {
@@ -37,11 +48,17 @@ export default {
         else {
             document.documentElement.setAttribute('site-theme', 'light');
         }
+    },
+    handleScroll () {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
     }
 
-  },
+},
 
-  mounted: function() {
+mounted: function() {
         console.log("Navigation mounted.");
         var today = new Date();
         console.log(today);
@@ -54,8 +71,7 @@ export default {
         else {
             document.documentElement.setAttribute('site-theme', 'light');
         }
-    },
- 
+    }, 
 }
 </script>
 
@@ -160,9 +176,9 @@ input:checked + .slider:before {
 }
 
 .progress-bar {
-  height: 4px;
-  background: var(--link-color);
-  width: 0%;
+height: 4px;
+background: var(--link-color);
+width: 0%;
 }
 
 </style>

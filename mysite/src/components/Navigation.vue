@@ -1,16 +1,16 @@
 <template>
   <div class="topnav">
         <b-navbar toggleable="lg" type="dark" variant="faded">
-            <b-navbar-brand href="#">michaeldsilva</b-navbar-brand>
+            <b-navbar-brand href="#helloWorld"><b>michaeldsilva</B></b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
             <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
-                <b-nav-item href="#AboutMe">About Me</b-nav-item>
-                <b-nav-item href="#Experience">Experience</b-nav-item>
-                <b-nav-item href="#Skills">Skills</b-nav-item>
-                <b-nav-item href="#Projects">Projects</b-nav-item>
+                <b-nav-item href="#aboutMe">About Me</b-nav-item>
+                <b-nav-item href="#experience">Experience</b-nav-item>
+                <b-nav-item href="#skills">Skills</b-nav-item>
+                <b-nav-item href="#projects">Projects</b-nav-item>
             </b-navbar-nav>
             <div class="switch-container">
                 <label class="switch">
@@ -28,10 +28,10 @@
 export default {
   name: 'Navigation',
   methods: {
-    created: function() {
+    created() {
         console.log("Navigation created.");
     },
-    mounted: function() {
+    mounted() {
         console.log("Navigation mounted.");
     },
     toggleCSS() {

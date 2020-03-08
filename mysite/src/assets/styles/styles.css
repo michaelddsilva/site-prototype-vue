@@ -49,65 +49,6 @@ body {
   background: #FF853D;
 }
 
-.me {
-  border-style: none;
-}
-
-.me1 {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background: var(--container-color); 
-  border-style: none;
-  width: 31%;
-  min-width: 350px;
-  display: inline-block;
-}
-
-.me2 {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background: none;
-  width: 60%;
-  min-width: 350px;
-  display: inline-block;
-}
-
-.me3 {
-  padding: 1em;
-  border-style: none;
-  width: 100%;
-  min-width: 350px;
-  display: inline-block;
-}
-
-.me3 p, .me3 ul, .me3 td, .me3 th {
-  color: var(--active-p-color);
-}
-
-.me td {
-  background: var(--container-color);
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 4px;
-  width: fit-content;
-  min-height: 70px;
-  vertical-align: middle;
-}
-
-.me tbody {
-  margin: 5px;
-}
-
-.me table img {
-  transform: scale(-1, 1); 
-  transform-origin: center;
-}
-
-.resume{
-  text-align: center;
-  padding: 1em;
-}
-
 .container{
   padding-top: 1em;
   padding-bottom: 1em;
@@ -259,7 +200,7 @@ table{
 }
 
 .FooterClass{
-  background: var(--nav-color);
+  background: var(--background-color);
   text-align: center;
   position: relative;
       bottom: 0;

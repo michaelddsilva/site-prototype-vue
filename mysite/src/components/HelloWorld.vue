@@ -1,17 +1,31 @@
 <template>
-  <div class="hello">
-    <img src="../assets/images/site_icons/m.png">
-    <div class="container">
-      <h2>Welcome to my site.</h2>
-      <p>Hi my name is Michael D'Silva. Welcome to my site. I am a third year software engineering student at Western University (UWO). Here on my site you can find my experiences, projects, skills and interests. Check out my resume:</p>
-    </div>
-
+  <div class="name">
+      <a href=#intro><h1 id="hello"></h1></a>
+      <h2 id ="titles"></h2>
   </div>
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
+  methods: {
+      
+  },
+  mounted: function() {
+      console.log("Footer mounted.");
+      var i = 0;
+      var name = "Hi, I'm Michael D'Silva";
+      var speed1 = 100;
+      function typeMyName() {
+        if (i < name.length) {
+          document.getElementById("hello").innerHTML += name.charAt(i);
+          i++;
+          
+          setTimeout(typeMyName, speed1);
+        }
+      }
+      typeMyName();
+  }
 
 }
 </script>

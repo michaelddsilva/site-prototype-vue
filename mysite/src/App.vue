@@ -26,6 +26,9 @@ export default {
     Experience,
     Skills,
     Projects
+  },
+  mounted: function() {
+    console.log("App mounted.");
   }
 }
 </script>

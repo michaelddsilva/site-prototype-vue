@@ -15,7 +15,7 @@
     </div>
 
     <div class="div2">
-    <h3>Shoot 'em up Genre Game: <a href="https://michaelddsilva.github.io/assets/game/" target ="_blank">[play here]</a></h3>
+    <h3>Shoot 'em up Genre Game: <a href="https://michaelddsilva.github.io/game/" target ="_blank">[play here]</a></h3>
     <img src="../assets/images/project_images/spaceinvaders.png" height="60px">
     <img src="../assets/images/project_images/c_sharp.png" height="60px">
     <ul>

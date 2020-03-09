@@ -15,7 +15,7 @@
     </div>
 
     <div class="div2">
-    <h3>Shoot 'em up Genre Game: <a href="https://michaelddsilva.github.io/game/" target ="_blank">[play here]</a></h3>
+    <h3>Shoot 'em up Genre Game: <a href="https://michaelddsilva.github.io/game/" target ="_blank">[play_here]</a></h3>
     <img src="../assets/images/project_images/spaceinvaders.png" height="60px">
     <img src="../assets/images/project_images/c_sharp.png" height="60px">
     <ul>
@@ -29,7 +29,7 @@
     <h3>Full Stack Web Application</h3>
     <img src="../assets/images/project_images/mean.jpg" height="60px">
     <ul>
-        <li>The Full Stack Web App was created with the <div class="tooltip">MEAN<span class="tooltiptext"><i>MongoDB, Express, Angular and Node.js</i></span> stack.</div></li> 
+        <li>The Full Stack Web App was created with the MEAN (MongoDB, Express, Angular and Node.js) stack.</li> 
         <li>The web app was created for a final project for Web Technologies course. </li>
     </ul>
     </div>

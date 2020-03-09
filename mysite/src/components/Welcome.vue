@@ -12,7 +12,7 @@
             <p>Here on my site you can find my experiences, projects, skills and interests.</p>
             <p>Check out my resume: <br><br>
                 
-                <a href="./Michael%20D'Silva's%20Resume.pdf" target = "_blank"><img src="../assets/images/pdf.svg" width="40px"></a>
+                <a href="./Resume.pdf" target = "_blank"><img src="../assets/images/pdf.svg" width="40px"></a>
             </p>
             <h2>Fun Facts</h2>
             <table>

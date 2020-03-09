@@ -54,7 +54,7 @@ export default {
 }
 
 .me1 {
-  background: var(--container-color); 
+  background: none; 
   border-style: none;
   width: 31%;
   min-width: 350px;
@@ -75,6 +75,7 @@ export default {
   width: 60%;
   min-width: 350px;
   display: inline-block;
+  
 }
 
 .me3 {
@@ -90,7 +91,7 @@ export default {
 }
 
 .me td {
-  background: var(--container-color);
+  background: none;
   margin-right: 0;
   margin-left: 0;
   margin-bottom: 4px;
@@ -101,6 +102,14 @@ export default {
 
 .me tbody {
   margin: 5px;
+}
+
+.me table {
+  background: var(--container-color);
+  border-style: ridge;
+  border-width: 0.1em; 
+  border-color: var(--border-color);
+  width: 50%;
 }
 
 .me table img {

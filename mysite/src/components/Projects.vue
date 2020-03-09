@@ -4,7 +4,7 @@
     <div class="div2">
         <h3>Personal Website: <a href="javascript:alert('You are already here!');">michaeldsilva.com</a> </h3>
         <img src="img/project_images/m.png" height="60px">
-        <img src="../assets/images/project_images/vue.png" height="60px">
+        <img src="img/project_images/vue.png" height="60px">
         <ul>
             <li>This site is hosted through <a href="https://github.io" target ="_blank">github.io</a>.</li>
             <li>The repository for the site can be located <a href="https://github.com/michaelddsilva/michaelddsilva.github.io" target ="_blank">here</a>.</li>

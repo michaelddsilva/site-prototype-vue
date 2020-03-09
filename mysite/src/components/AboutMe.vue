@@ -16,7 +16,7 @@
             <tbody>
                 <tr>
                     <td><p>I am currently a Project Manager for a project run through <a href="https://www.westernuai.com/" target="_blank">Western AI</a>. Western AI is "Western’s on-campus undergraduate AI community", their mission is to "mission is to educate students in important AI topics, centralize and develop AI talent, and launch AI-enabled careers in fields of interest."</p></td>
-                    <td><img src="../assets/images/organizations_logos/wai.png" width = 75%></td>
+                    <td><img src="img/organizations_logos/wai.png" width = 75%></td>
                 </tr> 
             </tbody>
             <thead>
@@ -28,7 +28,7 @@
             <tbody>
                 <tr>
                     <td><p>For the past two years I have been a pro-bono consultant for the <a href="https://www.westernmanagementclub.com/" target="_blank">Western Management Club (WMC)</a>. I worked in a team to provide pro-bono consulting services for a local business in London, Ontario.</p></td>
-                    <td><img src="../assets/images/organizations_logos/wmc.png" width = 75%></td>
+                    <td><img src="img/organizations_logos/wmc.png" width = 75%></td>
                 </tr>
             </tbody>
         </table>
@@ -46,11 +46,11 @@
                 <tbody>
                     <tr>
                         <td>Candidate for Bachelor of Engineering Science (BESc), Software Engineering</td>
-                        <td><img src="../assets/images/organizations_logos/western.png" width=75%></td>
+                        <td><img src="img/organizations_logos/western.png" width=75%></td>
                     </tr>
                 </tbody>                
             </table>
-            <img src="../assets/images/organizations_logos/Western_Logo_H_Engineering_RGB_SIM.svg">
+            <img src="img/organizations_logos/Western_Logo_H_Engineering_RGB_SIM.svg">
 
         </div>
 

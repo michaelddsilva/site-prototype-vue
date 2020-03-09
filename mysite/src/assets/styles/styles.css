@@ -57,12 +57,12 @@ body {
 
 ::-moz-selection {
   color: white;
-  background: #FF853D;
+  background: var(--accent-color);
 }
 
 ::selection {
   color: white;
-  background: #FF853D;
+  background: var(--accent-color);
 }
 
 .container{

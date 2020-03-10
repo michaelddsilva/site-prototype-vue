@@ -64,7 +64,7 @@ p {
 
 .me1 img {
   min-width: 300px;
-  width: 100%;
+  align-self: center;
 }
 
 .me1 {

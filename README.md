@@ -19,3 +19,5 @@ git remote add origin https://github.com/michaelddsilva/michaelddsilva.github.io
 git pull origin master --allow-unrelated-histories
 
 git push -u origin master
+
+cd ..

@@ -10,10 +10,10 @@ export default [
         ],
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         description: [
-            'The repository for the site can be located <a href="https://github.com/michaelddsilva/michaelddsilva.github.io" target ="_blank">here</a>.',
+            'The repository for the site can be located <a target="_blank" href="https://github.com/michaelddsilva/michaelddsilva.github.io" target ="_blank">here</a>.',
             'The icons i\'m using in site sections are from <a target="_blank" href="https://icons8.com">Icons8</a>.',
             'I started this site in Febuary of 2019 and have been updating it with my recent experiences, and tweaking it as I improve my experience as a web developer.',
-            'This site implements <a href="https://vuejs.org/">Vue.js</a>.',
+            'This site implements <a target="_blank" href="https://vuejs.org/">Vue.js</a>.',
         ]
     },
     {
@@ -28,7 +28,7 @@ export default [
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         description: [
             'This "shoot \'em up game" was created in collaboration with two other software engineering students.',
-            'The game\'s scripts were coded in C# and the assets and scenes were created in <a href="https://unity.com/" target="_blank">Unity</a>.',
+            'The game\'s scripts were coded in C# and the assets and scenes were created in <a target="_blank" href="https://unity.com/" target="_blank">Unity</a>.',
             'NOTE: The game will automatically open in full screen and the quit game button will cause the game to freeze.',
         ]
     },
@@ -76,7 +76,7 @@ export default [
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         description: [
             'This application was created for a Software Engineering Design course.',
-            'The application was created in Android Studio and connects to a <a href="https://firebase.google.com/">Google Firebase</a> database.',
+            'The application was created in Android Studio and connects to a <a target="_blank" href="https://firebase.google.com/">Google Firebase</a> database.',
         ]
     },
 ]

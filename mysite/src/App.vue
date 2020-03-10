@@ -3,7 +3,7 @@
     <Navigation/>
     <div id="helloWorld"></div>
     <HelloWorld/>
-    <div id="Welcome"></div>
+    <div id="welcome"></div>
     <Welcome/>
     <div id="aboutMe"></div>
     <AboutMe/>

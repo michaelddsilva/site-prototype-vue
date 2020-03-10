@@ -80,6 +80,10 @@ mounted: function() {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 
+.nav-link:hover {
+    color: var(--link-color)!important;
+}
+
 .topnav {
     overflow: hidden;
     background-color: var(--nav-color);

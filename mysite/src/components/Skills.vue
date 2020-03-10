@@ -30,7 +30,7 @@ export default {
 <style scoped>
 
 .div1 {
-    min-width: 400px;
+    min-width: 350px;
     min-height: 250px;
     width: 32%;
 }

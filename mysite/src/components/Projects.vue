@@ -40,7 +40,7 @@ export default {
   border-color: var(--border-color);
   margin: 2px;
   width: 32%;
-  min-width: 400px;
+  min-width: 350px;
   min-height: 400px;
   display: inline-block;
   vertical-align: top; 

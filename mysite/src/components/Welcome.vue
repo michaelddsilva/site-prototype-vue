@@ -15,26 +15,28 @@
                 <a href="./Resume.pdf" target = "_blank"><img src="../assets/images/pdf.svg" width="40px"></a>
             </p>
             <h2>Fun Facts</h2>
-            <table>
-                <tbody>
-                    <tr>
-                        <td><img src="../assets/images/funFacts_symbols/icons8-graduation-cap-96.png" width="40px"></td>
-                        <td><p>High School Class Valedictorian</p></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="../assets/images/funFacts_symbols/righthand.svg" width="40px"></td>
-                        <td><p>I'm left-handed</p></td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <tr>
-                        <td><img src="../assets/images/funFacts_symbols/icons8-chef-64.png" width="40px"></td>
-                        <td><p>I'm pretty good at cooking</p></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div id="funFacts">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><img src="../assets/images/funFacts_symbols/icons8-graduation-cap-96.png" width="40px"></td>
+                            <td><p>High School Class Valedictorian</p></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="../assets/images/funFacts_symbols/righthand.svg" width="40px"></td>
+                            <td><p>I'm left-handed</p></td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td><img src="../assets/images/funFacts_symbols/icons8-chef-64.png" width="40px"></td>
+                            <td><p>I'm pretty good at cooking</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
         
     </div>  
@@ -83,15 +85,15 @@ p {
   
 }
 
-.me3 {
-  padding: 1em;
-  border-style: none;
-  width: 100%;
-  min-width: 350px;
-  display: inline-block;
+.me3 ul, .me3 td, .me3 th {
+  color: var(--active-p-color);
 }
 
-.me3 p, .me3 ul, .me3 td, .me3 th {
+table p {
+  color: var(--inactive-p-color);
+}
+
+table p:hover {
   color: var(--active-p-color);
 }
 

@@ -49,6 +49,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+p {
+  margin: 8px;
+}
+
 .me {
   border-style: none;
 }
@@ -94,7 +99,7 @@ export default {
   background: none;
   margin-right: 0;
   margin-left: 0;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   width: fit-content;
   min-height: 70px;
   vertical-align: middle;

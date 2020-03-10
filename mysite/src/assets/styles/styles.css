@@ -169,14 +169,18 @@ p {
   color: var(--active-p-color);
   margin-left: 1em;
   margin-right: 1em;
-  
-    font-size-adjust: inherit;
+  font-size-adjust: inherit;
 
 }
 
 a {
-    text-decoration: none;
-    color: var(--link-color);
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.container a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
 }
 
 img{

@@ -1,5 +1,5 @@
 <template>
-  <div class="name">
+  <div class="name" id="name">
       <a href=#intro><h1 id="hello"></h1></a>
       <h2 id ="titles"></h2>
   </div>
@@ -21,7 +21,7 @@ export default {
           document.getElementById("hello").innerHTML += name.charAt(i);
           i++;
           
-          setTimeout(typeMyName, speed1);
+          setTimeout(typeMyName, speed1);          
         }
       }
       typeMyName();

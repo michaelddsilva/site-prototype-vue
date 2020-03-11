@@ -46,6 +46,7 @@ export default [
         description: [
             'The Full Stack Web App was created with the MEAN (MongoDB, Express, Angular and Node.js) stack.',
             'The web app was created for a final project for Web Technologies course.',
+            'The app uses the Angular framework for its front-end and connects to a MongoDB database.',
         ]
     },
     {
@@ -75,8 +76,23 @@ export default [
         ],
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         description: [
-            'This application was created for a Software Engineering Design course.',
+            'This application was created for a Software Engineering Design course with four other software engineering students.',
             'The application was created in Android Studio and connects to a <a target="_blank" href="https://firebase.google.com/">Google Firebase</a> database.',
+        ]
+    },
+    {
+        title: 'Computer Vision Project',
+        link: '',
+        linkDisplay: '',
+        repo: '',
+        img: [
+            'img/project_images/tensorflow.png', 
+            'img/project_images/python.png',
+        ],
+        code: '',
+        description: [
+            'Working on a medical imaging AI project that used computer vision for image segmentation.',
+            'This project is being completed in a team of five with diverse backgrounds in software engineering, computer science, and medical science.',
         ]
     },
 ]

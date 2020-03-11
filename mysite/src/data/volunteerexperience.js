@@ -7,6 +7,7 @@ export default [
         description: [
             'Project Manager for AI project pertaining to medical imaging',
             'Worked with team to set deadlines and formulate checkpoints to achieve goal',
+            'Developed educational presentations and demos to educate team',
         ]
     },
     {

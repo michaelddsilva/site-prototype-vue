@@ -2,6 +2,8 @@
 
 This repository contains the code for my personal site: https://michaeldsilva.com/
 
+My site is hosted through github pages and the live repo is located here: https://github.com/michaelddsilva/michaelddsilva.github.io
+
 # Commands to update site (michaelddsilva.github.io):
 
 npm run build

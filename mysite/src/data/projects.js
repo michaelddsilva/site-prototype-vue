@@ -46,7 +46,7 @@ export default [
         description: [
             'The Full Stack Web App was created with the MEAN (MongoDB, Express, Angular and Node.js) stack.',
             'The web app was created for a final project for Web Technologies course.',
-            'The app uses the Angular framework for its front-end and connects to a MongoDB database.',
+            'The app uses the Angular framework and connects to a MongoDB database.',
         ]
     },
     {
@@ -88,10 +88,11 @@ export default [
         img: [
             'img/project_images/tensorflow.png', 
             'img/project_images/python.png',
+            'img/project_images/googlecolaboratory.png',
         ],
         code: '',
         description: [
-            'Working on a medical imaging AI project that used computer vision for image segmentation.',
+            'Working on a medical imaging AI project that uses computer vision for image segmentation.',
             'This project is being completed in a team of five with diverse backgrounds in software engineering, computer science, and medical science.',
         ]
     },

@@ -31,6 +31,6 @@ git commit -m "Update"
 
 git remote add origin https://github.com/michaelddsilva/michaelddsilva.github.io.git
 
-git push https://github.com/michaelddsilva/michaelddsilva.github.io.git :vue
+git push https://github.com/michaelddsilva/michaelddsilva.github.io.git 8e4ac75:vue
 
 cd ..

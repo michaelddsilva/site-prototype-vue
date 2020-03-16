@@ -11,10 +11,9 @@ export default [
         ],
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         description: [
-            'The repository for the site can be located <a target="_blank" href="https://github.com/michaelddsilva/michaelddsilva.github.io" target ="_blank">here</a>.',
-            'The icons i\'m using in site sections are from <a target="_blank" href="https://icons8.com">Icons8</a>.',
             'I started this site in Febuary of 2019 and have been updating it with my recent experiences, and tweaking it as I improve my experience as a web developer.',
-            'This site implements <a target="_blank" href="https://vuejs.org/">Vue.js</a>.',
+            'This site is implemented with <a target="_blank" href="https://vuejs.org/">Vue.js</a>.',
+            'The icons i\'m using in site sections are from <a target="_blank" href="https://icons8.com">Icons8</a>.',
         ]
     },
     {

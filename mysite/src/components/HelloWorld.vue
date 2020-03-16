@@ -14,7 +14,7 @@ export default {
   mounted: function() {
       console.log("Footer mounted.");
       var i = 0;
-      var name = "Hi, I'm Michael D'Silva";
+      var name = "Hi, I'm Michael D'Silva.";
       var speed1 = 100;
       function typeMyName() {
         if (i < name.length) {

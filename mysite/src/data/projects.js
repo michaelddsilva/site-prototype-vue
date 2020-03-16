@@ -4,6 +4,7 @@ export default [
         link: 'https://michaeldsilva.com',
         linkDisplay: 'michaeldsilva.com',
         repo: 'michaelddsilva.github.io',
+        status: 'Work In Progress',
         img: [
             'img/project_images/m.png', 
             'img/project_images/vue.png'
@@ -18,9 +19,10 @@ export default [
     },
     {
         title: 'Shoot \'em up Game',
-        link: 'https://michaelddsilva.github.io/game/',
+        link: '/game/',
         linkDisplay: 'play here',
         repo: '',
+        status: 'Complete',
         img: [
             'img/project_images/unity.png', 
             'img/project_images/c_sharp.png'
@@ -37,6 +39,7 @@ export default [
         link: '',
         linkDisplay: 'play here',
         repo: '',
+        status: 'Complete',
         img: [
             'img/project_images/mongodb.png', 
             'img/project_images/angular.png',
@@ -54,6 +57,7 @@ export default [
         link: '',
         linkDisplay: '',
         repo: '',
+        status: 'Complete',
         img: [
             'img/project_images/mysql.png', 
             'img/project_images/php.png',
@@ -69,6 +73,7 @@ export default [
         link: '',
         linkDisplay: '',
         repo: '',
+        status: 'In Progress',
         img: [
             'img/project_images/android.png', 
             'img/project_images/java.png',
@@ -85,6 +90,7 @@ export default [
         link: '',
         linkDisplay: '',
         repo: '',
+        status: 'In Progress',
         img: [
             'img/project_images/tensorflow.png', 
             'img/project_images/python.png',
@@ -92,7 +98,7 @@ export default [
         ],
         code: '',
         description: [
-            'Working on a medical imaging AI project that uses computer vision for image segmentation.',
+            'Working on a medical imaging AI project that uses image segmentation.',
             'This project is being completed in a team of five with diverse backgrounds in software engineering, computer science, and medical science.',
         ]
     },

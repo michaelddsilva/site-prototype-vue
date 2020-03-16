@@ -3,8 +3,7 @@ export  default [
         category: 'Front End Development',
         img: 'img/skills_symbols/icons8-monitor-512.png',
         items: [
-            'HTML',
-            'CSS',
+            'HTML / CSS',
             'JavaScript',
             'Angular',
             'Vue.js'

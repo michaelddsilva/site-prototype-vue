@@ -3,6 +3,7 @@
     <h1>Projects</h1>
     <div class="div2" v-for="data in projectsJson" v-bind:key="data">
         <h3>{{data.title}}</h3>
+        <p>Status: {{data.status}}</p>
         <p v-if="data.link">Link: <a :href="data.link">{{data.linkDisplay}}</a></p>
         <p v-if="data.repo">Repo: <a :href="data.code">{{data.repo}}</a></p>
         <i v-for="img in data.img" v-bind:key="img">
@@ -41,7 +42,7 @@ export default {
   margin: 2px;
   width: 32%;
   min-width: 350px;
-  min-height: 400px;
+  min-height: 440px;
   display: inline-block;
   vertical-align: top; 
 }

@@ -25,16 +25,12 @@ git push -u origin master
 cd ..
 
 
-cd dist
-
-git init
-
 git add .
 
 git commit -m "Update"
 
 git remote add origin https://github.com/michaelddsilva/michaelddsilva.github.io.git
 
-git push -u origin vue
+git push https://github.com/michaelddsilva/michaelddsilva.github.io.git :vue
 
 cd ..

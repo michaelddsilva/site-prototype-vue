@@ -23,3 +23,18 @@ git pull origin master --allow-unrelated-histories
 git push -u origin master
 
 cd ..
+
+
+cd dist
+
+git init
+
+git add .
+
+git commit -m "Update"
+
+git remote add origin https://github.com/michaelddsilva/michaelddsilva.github.io.git
+
+git push -u origin vue
+
+cd ..

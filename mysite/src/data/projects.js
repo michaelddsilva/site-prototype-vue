@@ -6,8 +6,9 @@ export default [
         repo: 'michaelddsilva.github.io',
         status: 'Work In Progress',
         img: [
-            'img/project_images/m.png', 
-            'img/project_images/vue.png'
+            'img/project_images/m-icon.png', 
+            'img/project_images/vue.png',
+            'img/project_images/BootstrapVue.png'
         ],
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         description: [
@@ -99,6 +100,22 @@ export default [
         description: [
             'Working on a medical imaging AI project that uses image segmentation.',
             'This project is being completed in a team of five with diverse backgrounds in software engineering, computer science, and medical science.',
+        ]
+    },
+    {
+        title: 'Personal Site',
+        link: 'https://briannadsilva.com',
+        linkDisplay: 'briannadsilva.com',
+        repo: 'briannadsilva.github.io',
+        status: 'In Progress',
+        img: [
+            'img/project_images/b-icon.png', 
+            'img/project_images/bootstrap.png', 
+        ],
+        code: 'https://github.com/briannadsilva/briannadsilva.github.io',
+        description: [
+            'Working on a personal site for my sister, and teaching her web development skills.',
+            'This site uses <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a>.',
         ]
     },
 ]

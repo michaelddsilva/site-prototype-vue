@@ -4,8 +4,8 @@
     <div class="div2" v-for="data in projectsJson" v-bind:key="data">
         <h3>{{data.title}}</h3>
         <p>Status: {{data.status}}</p>
-        <p v-if="data.link">Link: <a :href="data.link">{{data.linkDisplay}}</a></p>
-        <p v-if="data.repo">Repo: <a :href="data.code">{{data.repo}}</a></p>
+        <p v-if="data.link">Link: <a :href="data.link" target="_blank">{{data.linkDisplay}}</a></p>
+        <p v-if="data.repo">Repo: <a :href="data.code" target="_blank">{{data.repo}}</a></p>
         <i v-for="img in data.img" v-bind:key="img">
             <img :src="img" height="60px">
         </i>

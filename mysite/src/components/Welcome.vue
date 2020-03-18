@@ -1,11 +1,18 @@
 <template>
   <div class="container">
   
-    <div class="me1">
-        <img src="../assets/images/me_images/me4.png" width = 300px alt = "me"> 
-    </div>
+   <div class="me">
+      <h3>Welcome to my site!</h3>
+      <div class="me1">
+        <img src="../assets/images/me_images/me3.jpg" width = 300px alt = "me">
+      </div>
+      <h5>3rd Software Engineering Student</h5>
+      <hr>
+      <h6>Email: <a href="mailto:mdsilva6@uwo.ca">mdsilva6@uwo.ca</a></h6>
+      <h6>LinkedIn: <a href="https://linkedin.com/in/michaelddsilva" target="_blank">linkedin.com/in/michaelddsilva</a></h6>
+      <h6>Github: <a href="https://github.com/michaelddsilva" target="_blank">github.com/michaelddsilva</a></h6>
+   </div>
     <div class="me2" >
-            <h1 style="text-align: center"><b>Welcome to my site!</b></h1>
             <p>Hi my name is Michael D'Silva. Welcome to my site. I am a third year software engineering student at Western University (UWO).</p>
             <p>Here on my site you can find my experiences, projects, skills and interests.</p>
             <p>Check out my resume: <br><br>            
@@ -60,6 +67,12 @@ export default {
 
 p {
   margin: 8px;
+}
+
+.me {
+  display: inline-block;
+  position: static;
+    top: 0;
 }
 
 .me1 img {

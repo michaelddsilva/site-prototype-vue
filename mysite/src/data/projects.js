@@ -1,6 +1,6 @@
 export default [
     {
-        title: 'Personal Website',
+        title: 'My Personal Website',
         link: 'https://michaeldsilva.com',
         linkDisplay: 'michaeldsilva.com',
         repo: 'michaelddsilva.github.io',
@@ -12,7 +12,7 @@ export default [
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         description: [
             'I started this site in Febuary of 2019 and have been updating it with my recent experiences, and tweaking it as I improve my experience as a web developer.',
-            'This site is implemented with <a target="_blank" href="https://vuejs.org/">Vue.js</a>.',
+            'This site is implemented with <a target="_blank" href="https://vuejs.org/">Vue.js</a> and uses <a target="_blank" href="https://bootstrap-vue.js.org/">BootstrapVue</a>.',
             'The icons i\'m using in site sections are from <a target="_blank" href="https://icons8.com">Icons8</a>.',
         ]
     },

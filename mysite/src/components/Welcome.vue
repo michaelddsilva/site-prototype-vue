@@ -2,7 +2,7 @@
   <div class="container">
   
    <div class="me">
-      <h3>Welcome to my site!</h3>
+      <h4>Michael D'Silva</h4>
       <div class="me1">
         <img src="../assets/images/me_images/me3.jpg" width = 300px alt = "me">
       </div>
@@ -70,6 +70,12 @@ p {
 }
 
 .me {
+  margin: 10px;
+  padding-top: 10px;
+  background: var(--container-color);
+  border-style: ridge;
+  border-width: 0.1em; 
+  border-color: var(--border-color);
   display: inline-block;
   position: static;
     top: 0;

@@ -15,8 +15,8 @@
     <div class="me2" >
             <p>Hi my name is Michael D'Silva. Welcome to my site. I am a third year software engineering student at Western University (UWO).</p>
             <p>Here on my site you can find my experiences, projects, skills and interests.</p>
-            <p>Check out my resume: <br><br>            
-                <a href="./Resume.pdf" target = "_blank"><img src="../assets/images/pdf.svg" width="40px"></a>
+            <p>Check out my resume:           
+                <a href="./Resume.pdf" target = "_blank"><img src="../assets/images/icons8-resume-100.png" height="80px" ></a>
             </p>
             <div class="welcomeFacts">
               <h2>Fun Facts</h2>

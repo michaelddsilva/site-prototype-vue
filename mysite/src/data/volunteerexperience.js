@@ -1,6 +1,7 @@
 export default [
     {
         organization: "WESTERN AI",
+        site: "https://www.westernuai.com/",
         img: "img/organizations_logos/wai.png",
         position: "Project Manager",
         duration: "October 2019-Present",
@@ -13,9 +14,10 @@ export default [
     },
     {
         organization: "WESTERN MANAGEMENT CLUB",
+        site: "https://www.westernmanagementclub.com/",
         img: "img/organizations_logos/wmc.png",
         position: "Management Consultant",
-        duration: "November 2019-Present",
+        duration: "November 2019-April 2020",
         description: [
             'Worked in a team to provide pro bono consulting services for a local business in London, Ontario',
             'Followed a strict timeline to produce deliverables as per client specifications',
@@ -24,6 +26,7 @@ export default [
     },
     {
         organization: "WESTERN MANAGEMENT CLUB",
+        site: "https://www.westernmanagementclub.com/",
         img: "img/organizations_logos/wmc.png",
         position: "Management Consultant",
         duration: "October 2018-April 2019",

@@ -20,7 +20,7 @@
                             <li>{{des}}</li>
                         </ul>
                     </td>
-                    <td><img :src="data.img" width =80%></td>
+                    <td><a :href="data.site" target="_blank"><img :src="data.img" width =80%/></a></td>
                 </tr>
             </tbody>
         </table>
@@ -45,7 +45,7 @@
                             <li>{{des}}</li>
                         </ul>
                     </td>
-                    <td><img :src="data.img" width =80%></td>
+                    <td><a :href="data.site" target="_blank"><img :src="data.img" width =80%/></a></td>
                 </tr>
             </tbody>
         </table>

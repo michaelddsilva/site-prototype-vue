@@ -5,7 +5,7 @@
       <div class="me1">
         <img src="../assets/images/me_images/me3.jpg" width = 300px alt = "me">
       </div>
-      <h5>3rd Software Engineering Student</h5>
+      <h5>3rd Year Software Engineering Student</h5>
       <hr>
       <h6>Email: <a href="mailto:mdsilva6@uwo.ca">mdsilva6@uwo.ca</a></h6>
       <h6>LinkedIn: <a href="https://linkedin.com/in/michaelddsilva" target="_blank">linkedin.com/in/michaelddsilva</a></h6>
@@ -90,6 +90,7 @@ p {
   min-width: 300px;
   display: block;
   margin: 0 auto!important;
+  align-self: center;
 }
 
 .me1 {

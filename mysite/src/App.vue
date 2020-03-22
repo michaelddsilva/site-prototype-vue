@@ -49,12 +49,51 @@ export default {
     console.log("App mounted.");
     var year = new Date().getFullYear();
     document.querySelector("footer p").innerHTML = "Copyright &#169 " + year + " Michael D'Silva";
-    var nav = document.querySelector(".topnav");
+    var nav = document.getElementById("navComponent");
+    var welcome = document.getElementById("welcomeComponent");
+    var aboutMe = document.getElementById("aboutMeComponent");
+    var experience = document.getElementById("experienceComponent");
+    var skills = document.getElementById("skillsComponent");
+    var projects = document.getElementById("projectsComponent");
+    var footer = document.getElementById("footerComponent");
     nav.style.opacity = 0;
+    nav.style.display = 'none';
+    nav.style.transition = 'opacity 3s ease-in';
+    welcome.style.opacity = 0.2;
+    welcome.style.display = 'none';
+    welcome.style.transition = 'opacity 3s ease-in';
+    aboutMe.style.opacity = 0;
+    aboutMe.style.display = 'none';
+    aboutMe.style.transition = 'opacity 3s ease-in';
+    experience.style.opacity = 0;
+    experience.style.display = 'none';
+    experience.style.transition = 'opacity 3s ease-in';
+    skills.style.opacity = 0;
+    skills.style.display = 'none';
+    skills.style.transition = 'opacity 3s ease-in';
+    projects.style.opacity = 0;
+    projects.style.display = 'none';
+    projects.style.transition = 'opacity 3s ease-in';
+    footer.style.opacity = 0;
+    footer.style.display = 'none';
+    footer.style.transition = 'opacity 3s ease-in';
+    
     setTimeout(()=>{
       nav.style.display = 'block';
-      setTimeout(()=>(nav.style.opacity = 1), 50);
-    }, 2000);
+      welcome.style.display = 'block';
+      aboutMe.style.display = 'block';
+      skills.style.display = 'block';
+      projects.style.display = 'block';
+      footer.style.display = 'block';
+      setTimeout(()=>{
+        nav.style.opacity = 1;
+        welcome.style.opacity = 1;
+        aboutMe.style.opacity = 1;
+        skills.style.opacity = 1;
+        projects.style.opacity = 1;
+        footer.style.opacity = 1;
+      }, 50);
+    }, 3000);
   }
 }
 </script>

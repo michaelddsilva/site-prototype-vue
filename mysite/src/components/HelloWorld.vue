@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="name" id="name">
+  <b-container fluid class="name" id="helloWorldComponent">
       <h1 id="hello"></h1>
       <h2 id ="titles"></h2>
   </b-container>

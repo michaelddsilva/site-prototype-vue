@@ -1,6 +1,6 @@
 <template>
         <b-container>
-        <footer class = "FooterClass">
+        <footer class = "FooterClass" id="footerComponent">
         <p></p>
         <div class = "links">
             <p>Icons from <a target="_blank" href="https://icons8.com">Icons8</a>. Hosted through <a href="https://github.io" target ="_blank">github.io</a>.</p>

@@ -1,5 +1,5 @@
 <template>
-  <b-container class="container">
+  <b-container class="container" id="projectsComponent">
     <h1>Projects</h1>
     <div class="div2" v-for="data in projectsJson" v-bind:key="data">
         <h3>{{data.title}}</h3>

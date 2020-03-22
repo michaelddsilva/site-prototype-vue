@@ -1,5 +1,5 @@
 <template>
-  <b-container class="container">
+  <b-container class="container" id="welcomeComponent">
    <div class="me">
       <h4>Michael D'Silva</h4>
       <div class="me1">

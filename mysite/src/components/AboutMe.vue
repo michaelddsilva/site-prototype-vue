@@ -1,5 +1,5 @@
 <template>
-  <b-container class="container">
+  <b-container class="container" id="aboutMeComponent">
 <br>
   <h1>About Me</h1>
         <div style="align-self: center">

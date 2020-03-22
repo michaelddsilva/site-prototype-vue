@@ -46,7 +46,7 @@
 html{
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
-  background: var(--background-color);
+  background: black;
   margin-top: 2em;
 }
 

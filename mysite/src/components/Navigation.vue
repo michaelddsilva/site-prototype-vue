@@ -85,6 +85,7 @@ mounted: function() {
 }
 
 .topnav {
+    display: none;
     overflow: hidden;
     background-color: var(--nav-color);
     z-index: 2;
@@ -93,6 +94,7 @@ mounted: function() {
         margin: 0em;
         padding-right: 0 em;
         width: 100%;
+    transition: opacity 3s ease-in;
 }
 
 .topnav a {

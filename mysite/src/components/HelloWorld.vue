@@ -35,23 +35,19 @@ export default {
 
 .name{
   background: var(--name-color);
-  padding-top: 8em;
-  padding-bottom: 4em;
+  padding-top: 20em;
+  padding-bottom: 40em;
   width: 100%;
   position: relative;
   animation-name: slidein;
-  animation-delay: 0s;
-  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-duration: 5s;
+  animation-fill-mode:forwards;
 }
 
-@keyframes slidein {
-  from {
-    padding-top: 20em;
-    padding-bottom: 40em;
-    margin-bottom:100%;
-  }
-  
+@keyframes slidein { 
   to {
+    top: 0;
     padding-top: 8em;
     padding-bottom: 4em;
     margin-bottom:0%;
@@ -61,6 +57,7 @@ export default {
 .name h1{
   color: white;
   text-align: center;
+  vertical-align: center;
 }
 
 .name h2{

@@ -48,7 +48,13 @@ export default {
   mounted: function() {
     console.log("App mounted.");
     var year = new Date().getFullYear();
-      document.querySelector("footer p").innerHTML = "Copyright &#169 " + year + " Michael D'Silva";
+    document.querySelector("footer p").innerHTML = "Copyright &#169 " + year + " Michael D'Silva";
+    var nav = document.querySelector(".topnav");
+    nav.style.opacity = 0;
+    setTimeout(()=>{
+      nav.style.display = 'block';
+      setTimeout(()=>(nav.style.opacity = 1), 50);
+    }, 2000);
   }
 }
 </script>

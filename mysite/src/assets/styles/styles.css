@@ -10,7 +10,8 @@
   --accent-color: #FF853D;
   --inactive-p-color: grey;
   --active-p-color: black;
-  --name-color: black;
+  --name-background-color: rgb(1, 36, 86);
+  --name-text-color: whitesmoke;
 }
 
 [site-theme="dark"] {
@@ -24,7 +25,8 @@
   --accent-color: rgb(3, 218, 171);
   --inactive-p-color: rgb(158, 157, 157);
   --active-p-color: white;
-  --name-color: black;
+  --name-background-color: black;
+  --name-text-color: white;
 }
 
 ::-webkit-scrollbar {
@@ -46,7 +48,7 @@
 html{
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
-  background: var(--name-color);
+  background: var(--name-background-color);
   margin-top: 2em;
 }
 

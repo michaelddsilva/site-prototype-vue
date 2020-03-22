@@ -12,7 +12,6 @@ export default {
       
   },
   mounted: function() {
-      console.log("Footer mounted.");
       var i = 0;
       var name = "Hi, I'm Michael D'Silva.";
       var speed1 = 100;
@@ -34,7 +33,7 @@ export default {
 <style scoped>
 
 .name{
-  background: var(--name-color);
+  background: var(--name-background-color);
   padding-top: 20em;
   padding-bottom: 40em;
   width: 100%;
@@ -54,7 +53,7 @@ export default {
 }
 
 .name h1{
-  color: white;
+  color: var(--name-text-color);
   text-align: center;
   vertical-align: center;
 }

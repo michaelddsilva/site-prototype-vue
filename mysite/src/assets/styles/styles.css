@@ -10,7 +10,7 @@
   --accent-color: #FF853D;
   --inactive-p-color: grey;
   --active-p-color: black;
-
+  --name-color: black;
 }
 
 [site-theme="dark"] {
@@ -24,6 +24,7 @@
   --accent-color: rgb(3, 218, 171);
   --inactive-p-color: rgb(158, 157, 157);
   --active-p-color: white;
+  --name-color: black;
 }
 
 ::-webkit-scrollbar {
@@ -126,27 +127,6 @@ display: inline-block;
 
 .tooltip:hover .tooltiptext {
 visibility: visible;
-}
-
-.name{
-  background: black;
-  padding-top: 8em;
-  padding-bottom: 4em;
-}
-
-.name h1{
-  color: white;
-  text-align: center;
-}
-
-.name h2{
-  color: whitesmoke;
-  text-align: center;
-  font-size: 1.75em;
-}
-
-.name a{
-  text-decoration: none;
 }
 
 ul {

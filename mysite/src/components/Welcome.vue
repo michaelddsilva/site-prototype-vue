@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-  
    <div class="me">
       <h4>Michael D'Silva</h4>
       <div class="me1">
@@ -18,6 +17,7 @@
             <p>Check out my resume:           
                 <a href="./Resume.pdf" target = "_blank"><img src="../assets/images/icons8-resume-100.png" height="80px" ></a>
             </p>
+            <div class="facts">
             <div class="welcomeFacts">
               <h2>Fun Facts</h2>
                 <ul>
@@ -51,6 +51,7 @@
                         <p>Management Consulting</p>
                     </li>
                 </ul>
+            </div>
             </div>
     </div>  
   </div>
@@ -99,6 +100,17 @@ p {
   width: 60%;
   min-width: 350px;
   display: inline-block;
+}
+.facts {
+  position: relative;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+@keyframes slidein {
+  from { left: 300px; }
+  
+  to { left: 0px; }
 }
 
 .welcomeFacts ul {

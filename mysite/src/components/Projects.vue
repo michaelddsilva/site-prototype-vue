@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <b-container class="container">
     <h1>Projects</h1>
     <div class="div2" v-for="data in projectsJson" v-bind:key="data">
         <h3>{{data.title}}</h3>
@@ -13,7 +13,7 @@
             <li v-html="des"></li>
         </ul>
     </div>
-  </div>
+  </b-container>
 </template>
 
 <script>

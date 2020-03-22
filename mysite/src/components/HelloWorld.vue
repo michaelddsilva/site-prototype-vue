@@ -1,8 +1,8 @@
 <template>
-  <div class="name" id="name">
+  <b-container fluid class="name" id="name">
       <h1 id="hello"></h1>
       <h2 id ="titles"></h2>
-  </div>
+  </b-container>
 </template>
 
 <script>
@@ -37,6 +37,7 @@ export default {
   background: var(--name-color);
   padding-top: 8em;
   padding-bottom: 4em;
+  width: 100%;
   position: relative;
   animation-name: slidein;
   animation-delay: 0s;

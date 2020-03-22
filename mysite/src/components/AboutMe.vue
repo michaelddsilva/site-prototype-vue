@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <b-container class="container">
 <br>
   <h1>About Me</h1>
         <div style="align-self: center">
@@ -57,7 +57,7 @@
         
     </div>
 
-  </div>
+  </b-container>
 </template>
 
 <script>

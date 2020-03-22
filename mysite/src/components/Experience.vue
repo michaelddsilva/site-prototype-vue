@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <b-container class="container">
     <h1>Experience</h1>
     <div class="div1">
     <h2>Work Experience</h2>
@@ -51,7 +51,7 @@
         </div> 
     </div>
 
-  </div>
+  </b-container>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <b-container class="container">
    <div class="me">
       <h4>Michael D'Silva</h4>
       <div class="me1">
@@ -53,8 +53,8 @@
                 </ul>
             </div>
             </div>
-    </div>  
-  </div>
+            </div>
+  </b-container>
 </template>
 
 <script>

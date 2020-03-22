@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <b-container class="container">
     <h1>Skills</h1>
 
         <div class="div1" v-for="data in categoryJson" v-bind:key="data">
@@ -11,7 +11,7 @@
         </div>
 
 
-  </div>
+  </b-container>
 </template>
 
 <script>

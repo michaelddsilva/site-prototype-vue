@@ -50,7 +50,6 @@ export default {
     top: 0;
     padding-top: 8em;
     padding-bottom: 4em;
-    margin-bottom:0%;
   }
 }
 

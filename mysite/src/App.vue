@@ -93,7 +93,7 @@ export default {
         projects.style.opacity = 1;
         footer.style.opacity = 1;
       }, 50);
-    }, 3000);
+    }, 2000);
   }
 }
 </script>

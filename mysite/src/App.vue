@@ -98,6 +98,7 @@ export default {
     }, 2000);
   }
 }
+history.scrollRestoration = "manual";
 </script>
 
 <style>

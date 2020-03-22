@@ -82,9 +82,14 @@ p {
     top: 0;
 }
 
+.me h4 {
+  text-align: center;
+}
+
 .me1 img {
   min-width: 300px;
-  align-self: center;
+  display: block;
+  margin: 0 auto!important;
 }
 
 .me1 {

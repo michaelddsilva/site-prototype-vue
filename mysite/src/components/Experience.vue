@@ -1,53 +1,54 @@
 <template>
   <b-container class="container" id="experienceComponent">
     <h1>Experience</h1>
+
     <div class="div1">
     <h2>Work Experience</h2>
-    <div class="workxp" v-for="data in jobsJson" v-bind:key="data">
-    <table>
-        <thead>
-            <tr>
-                <td><b>{{data.company}}, {{data.position}}</b></td>
-                <th>{{data.duration}}</th>
+        <div class="workxp" v-for="data in jobsJson" v-bind:key="data">
+        <table v-if="data.display">
+            <thead>
+                <tr>
+                    <td><b>{{data.company}}, {{data.position}}</b></td>
+                    <th>{{data.duration}}</th>
 
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <ul v-for="des in data.description" v-bind:key="des">
-                        <li>{{des}}</li>
-                    </ul>
-                </td>
-                <td><img :src="data.img" width =80%></td>
-            </tr>
-        </tbody>
-    </table>
-    </div>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul v-for="des in data.description" v-bind:key="des">
+                            <li>{{des}}</li>
+                        </ul>
+                    </td>
+                    <td><img :src="data.img" width =80%></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
     </div>
 
     <div class="div1">
-        <h2>Volunteer Experience</h2>
+    <h2>Volunteer Experience</h2>
         <div class="workxp" v-for="data in volunteerJson" v-bind:key="data">
-            <table>
-                <thead>
-                    <tr>
-                        <td><b>{{data.organization}}, {{data.position}}</b></td>
-                        <th>{{data.duration}}</th>
+        <table v-if="data.display">
+            <thead>
+                <tr>
+                    <td><b>{{data.organization}}, {{data.position}}</b></td>
+                    <th>{{data.duration}}</th>
 
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <ul v-for="des in data.description" v-bind:key="des">
-                                <li>{{des}}</li>
-                            </ul>
-                        </td>
-                        <td><img :src="data.img" width =80%></td>
-                    </tr>
-                </tbody>
-            </table>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul v-for="des in data.description" v-bind:key="des">
+                            <li>{{des}}</li>
+                        </ul>
+                    </td>
+                    <td><img :src="data.img" width =80%></td>
+                </tr>
+            </tbody>
+        </table>
         </div> 
     </div>
 

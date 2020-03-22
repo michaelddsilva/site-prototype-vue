@@ -1,6 +1,7 @@
 export default [
     {
         title: 'My Personal Website',
+        display: true,
         link: 'https://michaeldsilva.com',
         linkDisplay: 'michaeldsilva.com',
         repo: 'michaelddsilva.github.io',
@@ -19,6 +20,7 @@ export default [
     },
     {
         title: 'Shoot \'em up Game',
+        display: true,
         link: '/game/',
         linkDisplay: 'play here',
         repo: '',
@@ -36,6 +38,7 @@ export default [
     },
     {
         title: 'Full Stack Web Application',
+        display: true,
         link: '',
         linkDisplay: 'play here',
         repo: '',
@@ -54,6 +57,7 @@ export default [
     },
     {
         title: 'Relational Database Application',
+        display: true,
         link: '',
         linkDisplay: '',
         repo: '',
@@ -70,6 +74,7 @@ export default [
     },
     {
         title: 'Mobile Android Application',
+        display: true,
         link: '',
         linkDisplay: '',
         repo: '',
@@ -87,6 +92,7 @@ export default [
     },
     {
         title: 'Computer Vision Project',
+        display: true,
         link: '',
         linkDisplay: '',
         repo: '',
@@ -104,6 +110,7 @@ export default [
     },
     {
         title: 'Personal Site',
+        display: true,
         link: 'https://briannadsilva.com',
         linkDisplay: 'briannadsilva.com',
         repo: 'briannadsilva.github.io',

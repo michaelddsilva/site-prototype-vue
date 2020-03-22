@@ -82,6 +82,7 @@ export default {
       nav.style.display = 'block';
       welcome.style.display = 'block';
       aboutMe.style.display = 'block';
+      experience.style.display = 'block';
       skills.style.display = 'block';
       projects.style.display = 'block';
       footer.style.display = 'block';
@@ -89,6 +90,7 @@ export default {
         nav.style.opacity = 1;
         welcome.style.opacity = 1;
         aboutMe.style.opacity = 1;
+        experience.style.opacity = 1;
         skills.style.opacity = 1;
         projects.style.opacity = 1;
         footer.style.opacity = 1;

@@ -1,7 +1,8 @@
 <template>
   <b-container class="container" id="projectsComponent">
     <h1>Projects</h1>
-    <div class="div2" v-for="data in projectsJson" v-bind:key="data">
+    <v v-for="data in projectsJson" v-bind:key="data">
+      <div class="div2" v-if="data.display">
         <h3>{{data.title}}</h3>
         <p>Status: {{data.status}}</p>
         <p v-if="data.link">Link: <a :href="data.link" target="_blank">{{data.linkDisplay}}</a></p>
@@ -13,6 +14,7 @@
             <li v-html="des"></li>
         </ul>
     </div>
+    </v>
   </b-container>
 </template>
 

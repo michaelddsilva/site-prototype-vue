@@ -36,6 +36,7 @@ export default {
   background: var(--name-background-color);
   padding-top: 20em;
   padding-bottom: 40em;
+  height: 100vh;
   width: 100%;
   position: relative;
   animation-name: slidein;
@@ -46,6 +47,7 @@ export default {
 
 @keyframes slidein { 
   to {
+    height: 300px;
     top: 0;
     padding-top: 8em;
     padding-bottom: 4em;

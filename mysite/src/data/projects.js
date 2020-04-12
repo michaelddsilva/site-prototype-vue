@@ -79,7 +79,7 @@ export default [
         linkDisplay: '[demo video]',
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         repo: '',
-        status: 'In Progress',
+        status: 'Complete',
         img: [
             'img/project_images/android.png', 
             'img/project_images/java.png',
@@ -88,6 +88,7 @@ export default [
         description: [
             'This application was created for a Software Engineering Design course with four other software engineering students.',
             'The application was created in Android Studio and connects to a <a target="_blank" href="https://firebase.google.com/">Google Firebase</a> database.',
+            'This project was created.',
         ]
     },
     {

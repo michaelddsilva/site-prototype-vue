@@ -12,6 +12,9 @@
   --active-p-color: black;
   --name-background-color: rgb(5, 16, 46);
   --name-text-color: whitesmoke;
+  --complete-color: rgb(5, 165, 80);
+  --work-in-progress-color: rgb(0, 167, 111);
+  --in-progress-color: rgb(197, 211, 0);
 }
 
 [site-theme="dark"] {

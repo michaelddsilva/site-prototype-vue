@@ -4,7 +4,11 @@
     <v v-for="data in projectsJson" v-bind:key="data">
       <div class="div2" v-if="data.display">
         <h3>{{data.title}}</h3>
-        <p>Status: {{data.status}}</p>
+        <p> Status:
+          <span v-if="data.status=='Complete'" style="color: var(--complete-color)">{{data.status}}</span>
+          <span v-else-if="data.status=='In Progress'" style="color: var(--in-progress-color)">{{data.status}}</span>
+          <span v-else-if="data.status=='Work In Progress'" style="color: var(--work-in-progress-color)">{{data.status}}</span>
+        </p>
         <p v-if="data.link">Link: <a :href="data.link" target="_blank">{{data.linkDisplay}}</a></p>
         <p v-if="data.repo">Repo: <a :href="data.code" target="_blank">{{data.repo}}</a></p>
         <i v-for="img in data.img" v-bind:key="img">

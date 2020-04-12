@@ -17,7 +17,7 @@
                 <tr>
                     <td>
                         <ul v-for="des in data.description" v-bind:key="des">
-                            <li>{{des}}</li>
+                            <li>{{des}}.</li>
                         </ul>
                     </td>
                     <td><a :href="data.site" target="_blank"><img :src="data.img" width =80%/></a></td>
@@ -42,7 +42,7 @@
                 <tr>
                     <td>
                         <ul v-for="des in data.description" v-bind:key="des">
-                            <li>{{des}}</li>
+                            <li>{{des}}.</li>
                         </ul>
                     </td>
                     <td><a :href="data.site" target="_blank"><img :src="data.img" width =80%/></a></td>

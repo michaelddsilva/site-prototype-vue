@@ -56,7 +56,7 @@ export default [
         ]
     },
     {
-        title: 'Relational Database Application',
+        title: 'Relational DB Application',
         display: true,
         link: '',
         linkDisplay: '',
@@ -69,7 +69,7 @@ export default [
         ],
         description: [
             'This application was created for a Database Management Systems course project.',
-            'Created a relational database application with PHP that accesses a MySQL database through SQL commands.',
+            'Created a relational database (DB) application with PHP that accesses a MySQL database through SQL commands.',
         ]
     },
     {

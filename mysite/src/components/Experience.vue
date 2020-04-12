@@ -9,7 +9,7 @@
             <thead>
                 <tr>
                     <td><b>{{data.company}}, {{data.position}}</b></td>
-                    <th>{{data.duration}}</th>
+                    <th class="date">{{data.duration}}</th>
 
                 </tr>
             </thead>
@@ -34,7 +34,7 @@
             <thead>
                 <tr>
                     <td><b>{{data.organization}}, {{data.position}}</b></td>
-                    <th>{{data.duration}}</th>
+                    <th class="date">{{data.duration}}</th>
 
                 </tr>
             </thead>
@@ -72,4 +72,17 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.date {
+    text-align: right;
+    padding-right: 10px;
+}
+
+td {
+    width: 70%
+}
+
+ul {
+    margin-right: 0;
+    margin-bottom: 5px;
+}
 </style>

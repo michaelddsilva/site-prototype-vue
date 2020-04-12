@@ -75,8 +75,8 @@ export default [
     {
         title: 'Mobile Android Application',
         display: true,
-        link: '',
-        linkDisplay: '',
+        link: 'https://www.youtube.com/watch?v=z14ogKdjQAg&t=1s',
+        linkDisplay: '[demo video]',
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         repo: '',
         status: 'In Progress',

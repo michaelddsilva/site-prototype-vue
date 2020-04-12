@@ -5,9 +5,9 @@
       <div class="div2" v-if="data.display">
         <h3>{{data.title}}</h3>
         <p> Status:
-          <span v-if="data.status=='Complete'" style="color: var(--complete-color)">{{data.status}}</span>
-          <span v-else-if="data.status=='In Progress'" style="color: var(--in-progress-color)">{{data.status}}</span>
-          <span v-else-if="data.status=='Work In Progress'" style="color: var(--work-in-progress-color)">{{data.status}}</span>
+          <mark v-if="data.status=='Complete'" style="background-color: var(--complete-color)">{{data.status}}</mark>
+          <mark v-else-if="data.status=='In Progress'" style="background-color: var(--in-progress-color)">{{data.status}}</mark>
+          <mark v-else-if="data.status=='Work In Progress'" style="background-color: var(--work-in-progress-color)">{{data.status}}</mark>
         </p>
         <p v-if="data.link">Link: <a :href="data.link" target="_blank">{{data.linkDisplay}}</a></p>
         <p v-if="data.repo">Repo: <a :href="data.code" target="_blank">{{data.repo}}</a></p>
@@ -59,6 +59,11 @@ color: var(--inactive-p-color);
 
 p, ul {
   margin-bottom: 5px;
+}
+
+mark {
+  color: white;
+  opacity: 0.8;
 }
 
 .div2:hover p, .div2:hover ul, .div2:hover td{

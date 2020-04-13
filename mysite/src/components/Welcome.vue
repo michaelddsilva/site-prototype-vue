@@ -12,7 +12,8 @@
       <h6>Github: <a href="https://github.com/michaelddsilva" target="_blank">github.com/michaelddsilva</a></h6>
    </div>
     <div class="me2" >
-            <p>Welcome to my site. I am a third year software engineering student at Western University (UWO).</p>
+            <h3>Welcome to my site. </h3>
+            <p>I am a third year software engineering student at Western University (UWO).</p>
             <p>Here on my site you can find my experiences, projects, skills and interests.</p>
             <h6>Check out my resume:           
                 <a href="./Resume.pdf" target = "_blank"><img src="../assets/images/icons8-resume-100.png" height="80px" ></a>

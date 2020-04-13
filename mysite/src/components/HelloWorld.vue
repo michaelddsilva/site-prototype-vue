@@ -11,19 +11,78 @@ export default {
   methods: {
       
   },
-  mounted: function() {
+  mounted: async function() {
+      let nav = document.getElementById("navComponent");
+      let welcome = document.getElementById("welcomeComponent");
+      let aboutMe = document.getElementById("aboutMeComponent");
+      let experience = document.getElementById("experienceComponent");
+      let skills = document.getElementById("skillsComponent");
+      let projects = document.getElementById("projectsComponent");
+      let footer = document.getElementById("footerComponent");
+      nav.setAttribute('style','display:none')
       var i = 0;
       var name = "Hi, I'm Michael D'Silva.";
-      var speed1 = 100;
-      function typeMyName() {
+      var speed1 = 80;
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+      async function typeMyName() {
         if (i < name.length) {
           document.getElementById("hello").innerHTML += name.charAt(i);
+          await sleep(10);
           i++;
           
           setTimeout(typeMyName, speed1);          
         }
+        return new Promise;
       }
-      typeMyName();
+
+      async function loadName() {
+        typeMyName();
+        await sleep(2165)
+        await sleep(500)
+        var speed2 = 100;
+        document.getElementById("hello").innerHTML = "Hi, I'm Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = "i, I'm Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = ", I'm Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = " I'm Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = "I'm Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = "'m Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = "m Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = " Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = "Michael D'Silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = "michael d'silva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = "michael dsilva"
+        await sleep(speed2)
+        document.getElementById("hello").innerHTML = "michaeldsilva"
+        await sleep(speed2)
+
+        setTimeout(() => document.getElementById("hello").setAttribute('style', 'display:none'), 1000)
+      }
+
+      await loadName()
+      await sleep(1000)
+      welcome.style.display = 'block';
+      aboutMe.style.display = 'block';
+      experience.style.display = 'block';
+      skills.style.display = 'block';
+      projects.style.display = 'block';
+      footer.style.display = 'block';
+
+      await sleep(500)
+      nav.setAttribute('style','display: ')
+
+
   }
 
 }
@@ -40,17 +99,16 @@ export default {
   width: 100%;
   position: relative;
   animation-name: slidein;
-  animation-delay: 2s;
-  animation-duration: 5s;
+  animation-delay: 4.5s;
+  animation-duration: 1.5s;
   animation-fill-mode:forwards;
 }
 
 @keyframes slidein { 
   to {
-    height: 300px;
-    top: 0;
-    padding-top: 8em;
-    padding-bottom: 4em;
+    height: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 }
 

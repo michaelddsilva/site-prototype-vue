@@ -93,6 +93,17 @@ mounted: function() {
         margin: 0em;
         padding-right: 0 em;
         width: 100%;
+  animation-name: slidedown;
+  animation-duration: 0.5s;
+}
+
+@keyframes slidedown { 
+    from {
+        top: -20px;
+    }
+    to {
+        top: 0;
+    }
 }
 
 .topnav a {
@@ -180,6 +191,17 @@ input:checked + .slider:before {
     top: 3em;
     z-index: 2;
     width: 100%;
+    opacity: 0;
+    animation-name: slidedown2;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidedown2 { 
+    to {
+        opacity: 1;
+    }
 }
 
 .progress-box {

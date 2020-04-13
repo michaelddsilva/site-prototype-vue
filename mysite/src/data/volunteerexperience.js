@@ -17,7 +17,7 @@ export default [
         site: "https://www.westernmanagementclub.com/",
         img: "img/organizations_logos/wmc.png",
         position: "Management Consultant",
-        duration: "November 2019-April 2020",
+        duration: "November 2019-Present",
         description: [
             'Worked in a team to provide pro bono consulting services for a local business in London, Ontario',
             'Followed a strict timeline to produce deliverables as per client specifications',

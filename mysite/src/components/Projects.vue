@@ -64,6 +64,7 @@ p, ul {
 mark {
   color: white;
   opacity: 0.8;
+  border-radius: 5  px;
 }
 
 .div2:hover p, .div2:hover ul, .div2:hover td{

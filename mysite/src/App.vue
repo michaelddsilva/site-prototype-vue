@@ -40,22 +40,17 @@ export default {
     Footer
   },
   methods: {
-    copyrightYear() {
-      var year = new Date().getFullYear();
-      document.querySelector("footer p").innerHTML = "Copyright <i class='far fa-copyright'></i> " + year + " Michael D'Silva";
-    }
+ 
   },
   mounted: function() {
     console.log("App mounted.");
-    var year = new Date().getFullYear();
-    document.querySelector("footer p").innerHTML = "Copyright &#169 " + year + " Michael D'Silva";
-    var nav = document.getElementById("navComponent");
-    var welcome = document.getElementById("welcomeComponent");
-    var aboutMe = document.getElementById("aboutMeComponent");
-    var experience = document.getElementById("experienceComponent");
-    var skills = document.getElementById("skillsComponent");
-    var projects = document.getElementById("projectsComponent");
-    var footer = document.getElementById("footerComponent");
+    let nav = document.getElementById("navComponent");
+    let welcome = document.getElementById("welcomeComponent");
+    let aboutMe = document.getElementById("aboutMeComponent");
+    let experience = document.getElementById("experienceComponent");
+    let skills = document.getElementById("skillsComponent");
+    let projects = document.getElementById("projectsComponent");
+    let footer = document.getElementById("footerComponent");
     nav.style.opacity = 0;
     nav.style.display = 'none';
     nav.style.transition = 'opacity 3s ease-in';

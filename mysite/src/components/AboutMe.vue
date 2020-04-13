@@ -6,32 +6,22 @@
         
         <div class="div1">
         <h2>Clubs & Organizations</h2>
-        <table>
+        <div class="affiliations" v-for="data in affiliationsJson" v-bind:key="data">
+        <table v-if="data.display">
             <thead>
                 <tr>
-                    <td><b>Western AI</b></td>
+                    <td><b>{{data.name}}</b></td>
                     <td><b></b></td>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><p>I am currently a Project Manager for a project run through <a href="https://www.westernuai.com/" target="_blank">Western AI</a>. Western AI is "Western’s on-campus undergraduate AI community", their mission is to "mission is to educate students in important AI topics, centralize and develop AI talent, and launch AI-enabled careers in fields of interest."</p></td>
-                    <td><img src="img/organizations_logos/wai.png" width = 75%></td>
+                    <td><p v-html="data.description"></p></td>
+                    <td><a :href="data.site" target="_blank"><img :src="data.img" width =75%/></a></td>
                 </tr> 
             </tbody>
-            <thead>
-                <tr>
-                    <td><b>Western Management Club</b></td>
-                    <td><b></b></td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><p>For the past two years I have been a pro-bono consultant for the <a href="https://www.westernmanagementclub.com/" target="_blank">Western Management Club (WMC)</a>. I worked in a team to provide pro-bono consulting services for a local business in London, Ontario.</p></td>
-                    <td><img src="img/organizations_logos/wmc.png" width = 75%></td>
-                </tr>
-            </tbody>
         </table>
+        </div>
         </div>
         
         <div class="div1">
@@ -45,7 +35,10 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Candidate for Bachelor of Engineering Science (BESc), Software Engineering</td>
+                        <td>
+                            <p>Candidate for Bachelor of Engineering Science (BESc), Software Engineering</p>
+                            <p><i>Western Scholarship of Distinction</i></p>
+                        </td>
                         <td><img src="img/organizations_logos/western.png" width=75%></td>
                     </tr>
                 </tbody>                
@@ -61,8 +54,14 @@
 </template>
 
 <script>
+import affiliationsData from '../data/affiliations'
 export default {
   name: 'AboutMe',
+  data() {
+      return {
+          affiliationsJson: affiliationsData
+      }
+  },
   mounted() {
       console.log("AboutMe mounted.")
   }

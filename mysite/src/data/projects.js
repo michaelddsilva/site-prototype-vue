@@ -135,9 +135,11 @@ export default [
         repo: 'sketchpad',
         status: 'In Progress',
         img: [
+            'img/project_images/vue.png'
         ],
         description: [
-            'Working on a sketchpad web app.'
+            'Working on a sketchpad web app.',
+            'This web app was created for a final project for a Human Computer Interface course'
         ]
     },
 ]

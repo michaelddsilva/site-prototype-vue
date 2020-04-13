@@ -57,6 +57,16 @@ html{
 
 body {
   background: var(--background-color);
+  overflow-y: hidden;
+  animation-name: enableScrolling;
+  animation-delay: 3870ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes enableScrolling {
+  to {
+    overflow-y: visible;
+  }
 }
 
 html, body {

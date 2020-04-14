@@ -1,7 +1,7 @@
 <template>
 <div class="topnav" id="navComponent">
     <b-navbar toggleable="lg" type="dark" variant="faded">
-        <b-navbar-brand href="#helloWorld"><b>michaeldsilva</B></b-navbar-brand>
+        <b-navbar-brand id="brand" href="#"><b>michaeldsilva</b></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -56,6 +56,10 @@ methods: {
         var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         var scrolled = (winScroll / height) * 100;
         document.getElementById("myBar").style.width = scrolled + "%";
+    },
+    scrollToTop() {
+        document.documentElement.scrollTop = 0;
+        history.pushState("", document.title, window.location.pathname);
     }
 
 },
@@ -73,6 +77,7 @@ mounted: function() {
         else {
             document.documentElement.setAttribute('site-theme', 'light');
         }
+        document.getElementById('brand').onclick = this.scrollToTop;
     }, 
 }
 </script>

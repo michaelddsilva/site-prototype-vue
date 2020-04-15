@@ -186,7 +186,8 @@ img{
 
 table{
   padding-left: 1em;
-  width: 100%
+  width: 100%;
+  border-collapse: separate;
 }
 
 .FooterClass{

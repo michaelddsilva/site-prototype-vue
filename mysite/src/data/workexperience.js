@@ -32,7 +32,6 @@ export default [
         duration: "May-August 2018",
         description: [
             'Conducted research and analysis for the Technology Architecture Group',
-            'Communicated with vendors to acquire information, and schedule presentations and meetings',
             'Performed testing and evaluation of emerging, opensource, off-shelf and in-house applications',
             'Participated in Proof of Technology (POT) by creating manual for application(s) being tested',
         ],

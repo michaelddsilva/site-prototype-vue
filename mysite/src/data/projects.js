@@ -27,8 +27,8 @@ export default [
         repo: '',
         status: 'Complete',
         img: [
-            'img/project_images/unity.png', 
-            'img/project_images/c_sharp.png'
+            'img/project_images/c_sharp.png',
+            'img/project_images/unity.png' 
         ],
         description: [
             'This "shoot \'em up game" was created in collaboration with two other software engineering students.',

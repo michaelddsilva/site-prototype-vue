@@ -19,13 +19,13 @@
 
 [site-theme="dark"] {
   --nav-color: rgb(0, 0, 0);
-  --background-color: rgb(41, 40, 43);
-  --container-color: rgb(43, 43, 49);
-  --border-color: rgba(184, 203, 221, 0.03);
+  --background-color: #121212;
+  --container-color: #22222271;
+  --border-color: #0a070700;
   --h1-color: white;
   --h2-color: white;
-  --link-color: rgb(3, 218, 171);
-  --accent-color: rgb(3, 218, 171);
+  --link-color: #03daab;
+  --accent-color: #03daab;
   --inactive-p-color: rgb(158, 157, 157);
   --active-p-color: white;
   --name-background-color: black;

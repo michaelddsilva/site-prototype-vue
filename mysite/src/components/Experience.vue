@@ -21,7 +21,7 @@
                             <li>{{des}}.</li>
                         </ul>
                     </td>
-                    <td width="20%"><a :href="data.site" target="_blank"><img :src="data.img" width =100%/></a></td>
+                    <td><a :href="data.site" target="_blank"><img :src="data.img" width =100%/></a></td>
                 </tr>
             </tbody>
         </table>
@@ -48,7 +48,7 @@
                             <li>{{des}}.</li>
                         </ul>
                     </td>
-                    <td width="20%"><a :href="data.site" target="_blank"><img :src="data.img" width =100%/></a></td>
+                    <td><a :href="data.site" target="_blank"><img :src="data.img" width =100%/></a></td>
                 </tr>
             </tbody>
         </table>
@@ -127,7 +127,7 @@ transition: 0.3s;
 }
 
 .experienceCards tr td:nth-child(2){
-  width: 20%;
+  width: 23%;
 }
 
 img{

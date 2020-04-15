@@ -12,49 +12,49 @@
       <h6>Github: <a href="https://github.com/michaelddsilva" target="_blank">github.com/michaelddsilva</a></h6>
    </div>
     <div class="me2" >
-            <h3>Welcome to my site. </h3>
-            <p>I am a third year software engineering student at Western University (UWO).</p>
-            <p>Here on my site you can find my experiences, projects, skills and interests.</p>
-            <h6>Check out my resume:           
-                <a href="./Resume.pdf" target = "_blank"><img src="../assets/images/icons8-resume-100.png" height="80px" ></a>
-            </h6>
-            <div class="facts">
-            <div class="welcomeFacts">
-              <h2>Fun Facts</h2>
-                <ul>
-                    <li>
-                        <img src="../assets/images/funFacts_symbols/icons8-graduation-cap-96.png" width="40px">
-                        <p>High School Class Valedictorian</p>
-                    </li>
-                    <li>
-                        <img src="../assets/images/funFacts_symbols/icons8-hand-left-96.png" width="40px">
-                        <p>I'm left-handed</p>
-                    </li>
-                    <li>
-                        <img src="../assets/images/funFacts_symbols/icons8-star-wars-96.png" width="40px">
-                        <p>I've watched every Star Wars film</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="welcomeFacts">
-                <h2>Skill Sets</h2>
-                <ul>
-                    <li>
-                        <img src="../assets/images/skillSets_symbols/icons8-web-64.png" width="40px">
-                        <p>Web Development</p>
-                    </li>
-                    <li>
-                        <img src="../assets/images/skillSets_symbols/icons8-mobile-64.png" width="40px">
-                        <p>App Development</p>
-                    </li>
-                    <li>
-                        <img src="../assets/images/skillSets_symbols/icons8-business-64.png" width="40px">
-                        <p>Management Consulting</p>
-                    </li>
-                </ul>
-            </div>
-            </div>
-            </div>
+      <h3>Welcome to my site. </h3>
+      <p>I am a third year software engineering student at Western University (UWO).</p>
+      <p>Here on my site you can find my experiences, projects, skills and interests.</p>
+      <h6>Check out my resume:           
+          <a href="./Resume.pdf" target = "_blank"><img src="../assets/images/icons8-resume-100.png" height="80px" ></a>
+      </h6>
+      <div class="facts">
+        <div class="welcomeFacts">
+          <h2>Fun Facts</h2>
+            <ul>
+                <li>
+                    <img src="../assets/images/funFacts_symbols/icons8-graduation-cap-96.png" width="40px">
+                    <p>High School Class Valedictorian</p>
+                </li>
+                <li>
+                    <img src="../assets/images/funFacts_symbols/icons8-hand-left-96.png" width="40px">
+                    <p>I'm left-handed</p>
+                </li>
+                <li>
+                    <img src="../assets/images/funFacts_symbols/icons8-star-wars-96.png" width="40px">
+                    <p>I've watched every Star Wars film</p>
+                </li>
+            </ul>
+        </div>
+        <div class="welcomeFacts">
+            <h2>Skill Sets</h2>
+            <ul>
+                <li>
+                    <img src="../assets/images/skillSets_symbols/icons8-web-64.png" width="40px">
+                    <p>Web Development</p>
+                </li>
+                <li>
+                    <img src="../assets/images/skillSets_symbols/icons8-mobile-64.png" width="40px">
+                    <p>App Development</p>
+                </li>
+                <li>
+                    <img src="../assets/images/skillSets_symbols/icons8-business-64.png" width="40px">
+                    <p>Management Consulting</p>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
   </b-container>
 </template>
 

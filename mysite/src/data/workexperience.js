@@ -50,4 +50,16 @@ export default [
         ],
         display: false,
     },
+    {
+        company: "LONGO'S",
+        img: "img/organizations_logos/longos.png",
+        position: "Cashier",
+        duration: "June 2016-August 2017",
+        description: [
+            'Received recognition from customers for outstanding customer service',
+            'Trained new employees on cashier duties',            
+            'Consistently improved customer satisfaction by resolving inquiries and concerns',
+        ],
+        display: false,
+    },
 ]

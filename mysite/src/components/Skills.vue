@@ -32,7 +32,7 @@ export default {
 .div1 {
     min-width: 350px;
     min-height: 250px;
-    width: 32%;
+    width: 26%;
 }
 
 ul {

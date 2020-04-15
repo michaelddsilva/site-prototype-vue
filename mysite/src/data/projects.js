@@ -88,7 +88,6 @@ export default [
         description: [
             'This application was created for a Software Engineering Design course with four other software engineering students.',
             'The application was created in Android Studio and connects to a <a target="_blank" href="https://firebase.google.com/">Google Firebase</a> database.',
-            'This project was created.',
         ]
     },
     {

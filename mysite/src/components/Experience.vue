@@ -97,7 +97,6 @@ ul {
 .div2{
   padding-top: 1em;
   padding-bottom: 1em;
-  background: var(--container-color); 
   margin: 2px;
   width: 49%;
   min-width: 350px;
@@ -108,6 +107,7 @@ ul {
 .experienceCards{
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  margin-bottom: 2px;
   background: var(--container-color); 
   border-style: ridge;
   border-width: 0.1em; 

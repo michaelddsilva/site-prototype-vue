@@ -4,7 +4,7 @@ export default [
         site: "https://www.caatpension.on.ca/en/",
         img: "img/organizations_logos/caat.png",
         position: "Student (Software Development Team)",
-        duration: "May-August 2020",
+        duration: "May&#8211August 2020",
         description: [
             'Working in the software development team',
         ],
@@ -15,7 +15,7 @@ export default [
         site: "https://www.teranet.ca/",
         img: "img/organizations_logos/teranet.png",
         position: "Student (Enterprise Architecture Team)",
-        duration: "May-August 2019",
+        duration: "May &#8211 August 2019",
         description: [
             'Worked under mentorship of the head of the Architecture practice',
             'Designed new SharePoint site for Architecture Team',

@@ -9,8 +9,12 @@
         <table>
             <thead>
                 <tr>
-                    <td><b>{{data.company}}, {{data.position}}</b></td>
-                    <th class="date">{{data.duration}}</th>
+                    <th>
+                        <position>{{data.position}}</position><br>
+                        <p><a :href="data.site" target="_blank">{{data.company}} &#9701; </a></p>
+                        <p v-html="data.duration"></p>
+                    </th>
+                    <th width="23%"><a :href="data.site" target="_blank"><img :src="data.img" width =100%/></a></th>
 
                 </tr>
             </thead>
@@ -21,7 +25,7 @@
                             <li>{{des}}.</li>
                         </ul>
                     </td>
-                    <td><a :href="data.site" target="_blank"><img :src="data.img" width =100%/></a></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>
@@ -36,19 +40,23 @@
         <table>
             <thead>
                 <tr>
-                    <td><b>{{data.organization}}, {{data.position}}</b></td>
-                    <th class="date">{{data.duration}}</th>
+                    <th width="23%"><img :src="data.img" width =100%/></th>
+                    <th>
+                        <position>{{data.position}}</position><br>
+                        <p><a :href="data.site" target="_blank">{{data.organization}} &#9701; </a></p>
+                        <p v-html="data.duration"></p>
+                    </th>
 
                 </tr>
             </thead>
             <tbody>
                 <tr>
+                    <td></td>
                     <td>
                         <ul v-for="des in data.description" v-bind:key="des">
                             <li>{{des}}.</li>
                         </ul>
                     </td>
-                    <td><a :href="data.site" target="_blank"><img :src="data.img" width =100%/></a></td>
                 </tr>
             </tbody>
         </table>
@@ -62,6 +70,7 @@
 <script>
 import jobData from '../data/workexperience.js'
 import volunteerData from '../data/volunteerexperience.js'
+import $ from 'jquery'
 export default {
   name: 'Experience',
   data(){
@@ -69,6 +78,15 @@ export default {
           jobsJson: jobData,
           volunteerJson: volunteerData
       }
+  },
+  methods: {
+
+  },
+  mounted: function() {
+        $("thead").on("click", function() {
+            console.log('thead clicked');
+            $(this).parents("table").find("tbody").toggle();
+        });
   }
 }
 </script>
@@ -112,7 +130,8 @@ ul {
   border-style: ridge;
   border-width: 0.1em; 
   border-color: var(--border-color);
-  min-height: 250px;
+  min-height: 150px;
+  width: 100%;
   display: inline-block;
   vertical-align: top; 
 }
@@ -121,18 +140,32 @@ ul {
 color: var(--inactive-p-color);
 }
 
-.experienceCards:hover p, .experienceCards:hover ul, .experienceCards:hover td{
+.experienceCards:hover p, .experienceCards:hover ul, .experienceCards:hover td, .experienceCards:hover th{
 color: var(--active-p-color);
 transition: 0.3s;
 }
 
-.experienceCards tr td:nth-child(2){
-  width: 23%;
+.experienceCards th {
+    font-weight: normal;
+}
+
+.experienceCards th p{
+    margin: 0;
+    display: inline;
+}
+
+.experienceCards th a{
+    text-decoration: none;
+}
+
+
+.experienceCards position {
+    font-size: 1.5em;
 }
 
 img{
   align-self: flex-end;
-  max-width: 150px;
+  max-width: 100px;
   padding-left: 0.5em;
   margin: 10px auto;
 }

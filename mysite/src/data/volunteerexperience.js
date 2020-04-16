@@ -34,6 +34,6 @@ export default [
             'Worked in a team to provide pro bono consulting services for a local business in London, Ontario',
             'Followed a strict timeline to produce deliverables as per client specifications',
         ],
-        display: false,
+        display: true,
     }
 ]

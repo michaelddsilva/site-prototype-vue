@@ -14,7 +14,7 @@
                         <p><a :href="data.site" target="_blank">{{data.company}} &#9701; </a></p>
                         <p v-html="data.duration"></p>
                     </th>
-                    <th width="23%"><a :href="data.site" target="_blank"><img :src="data.img" width =100%/></a></th>
+                    <th width="23%"><img :src="data.img" width =100%/></th>
 
                 </tr>
             </thead>

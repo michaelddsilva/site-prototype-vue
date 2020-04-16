@@ -4,7 +4,7 @@ export default [
         site: "https://www.caatpension.on.ca/en/",
         img: "img/organizations_logos/caat.png",
         position: "Student (Software Development Team)",
-        duration: "May&#8211August 2020",
+        duration: "May &#8211 August 2020",
         description: [
             'Working in the software development team',
         ],
@@ -29,7 +29,7 @@ export default [
         site: "https://www.teranet.ca/",
         img: "img/organizations_logos/teranet.png",
         position: "Student (Enterprise Architecture Team)",
-        duration: "May-August 2018",
+        duration: "May &#8211 August 2018",
         description: [
             'Conducted research and analysis for the Technology Architecture Group',
             'Performed testing and evaluation of emerging, opensource, off-shelf and in-house applications',
@@ -41,7 +41,7 @@ export default [
         company: "JMB IT SOLUTIONS",
         img: "img/organizations_logos/JMB.png",
         position: "IT Consultant & Trainer",
-        duration: "June 2016-August 2018",
+        duration: "June 2016 &#8211 August 2018",
         description: [
             'Trained customers on Windows/Android/iPhone, Email, Social Media',
             'Provide technical expertise in troubleshooting to resolve IT issues',            
@@ -54,7 +54,7 @@ export default [
         company: "LONGO'S",
         img: "img/organizations_logos/longos.png",
         position: "Cashier",
-        duration: "June 2016-August 2017",
+        duration: "June 2016 &#8211 August 2017",
         description: [
             'Received recognition from customers for outstanding customer service',
             'Trained new employees on cashier duties',            

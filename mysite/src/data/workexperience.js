@@ -6,9 +6,8 @@ export default [
         position: "Student (Software Development Team)",
         duration: "May &#8211 August 2020",
         description: [
-            'Working in the software development team',
         ],
-        display: false,
+        display: true,
     },
     {
         company: "TERANET",

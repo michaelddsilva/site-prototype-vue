@@ -115,7 +115,7 @@ export default [
         linkDisplay: 'briannadsilva.com',
         code: 'https://github.com/briannadsilva/briannadsilva.github.io',
         repo: 'briannadsilva.github.io',
-        status: 'In Progress',
+        status: 'Work In Progress',
         img: [
             'img/project_images/b-icon.png', 
             'img/project_images/bootstrap.png', 
@@ -127,18 +127,19 @@ export default [
     },
     {
         title: 'Sketchpad Web App',
-        display: false,
+        display: true,
         link: '/sketchpad',
         linkDisplay: 'michaeldsilva.com/sketchpad',
         code: 'https://github.com/michaelddsilva/sketchpad',
         repo: 'sketchpad',
-        status: 'In Progress',
+        status: 'Complete',
         img: [
-            'img/project_images/vue.png'
+            'img/project_images/vue.png',
+            'img/project_images/fabricjs.png',
         ],
         description: [
-            'Working on a sketchpad web app.',
-            'This web app was created for a final project for a Human Computer Interface course'
+            'Made a sketchpad web app for my Human Computer Interfaces course.',
+            'This vue web app is implemented with <a target="_blank" href="http://fabricjs.com/">fabricjs</a>'
         ]
     },
 ]

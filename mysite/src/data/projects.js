@@ -139,7 +139,8 @@ export default [
         ],
         description: [
             'Made a sketchpad web app for my Human Computer Interfaces course.',
-            'This vue web app is implemented with <a target="_blank" href="http://fabricjs.com/">fabricjs</a>'
+            'This vue web app is implemented with <a target="_blank" href="http://fabricjs.com/">fabricjs</a>',
+            'NOTE: This vue web app is only optimized for desktop',
         ]
     },
 ]

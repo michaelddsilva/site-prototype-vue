@@ -10,6 +10,7 @@
           <mark v-else-if="data.status=='Work In Progress'" style="background-color: var(--work-in-progress-color)">{{data.status}}</mark>
         </p>
         <p v-if="data.link">Link: <a :href="data.link" target="_blank">{{data.linkDisplay}}</a></p>
+        <p v-if="data.demo">Demo: <a :href="data.demo" target="_blank">[video]</a></p>
         <p v-if="data.repo">Repo: <a :href="data.code" target="_blank">{{data.repo}}</a></p>
         <i v-for="img in data.img" v-bind:key="img">
             <img :src="img" height="60px">

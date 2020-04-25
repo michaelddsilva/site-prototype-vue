@@ -2,19 +2,19 @@
 	<b-container class="container" id="welcomeComponent">
 		<div class="me">
 			<div class="me1">
-			<h4>Michael D'Silva</h4>
+				<h4>Michael D'Silva</h4>
 			</div>
 			<div class="me-img">
 				<img src="../assets/images/me_images/me5.jpg" width="300px" alt="me" />
 			</div>
 			<div class="resume">
-			<h6>
-				Check out my resume:
-				<a href="./Resume.pdf" target="_blank">
-					<img src="../assets/images/icons8-resume-100.png" height="80px" />
-				</a>
-			</h6>			</div>
-
+				<h6>
+					Check out my resume:
+					<a href="./Resume.pdf" target="_blank">
+						<img src="../assets/images/misc/resume.svg" height="80px" />
+					</a>
+				</h6>
+			</div>
 		</div>
 		<div class="me2">
 			<h3>Welcome to my site.</h3>
@@ -22,18 +22,40 @@
 			<p>I created this site to showcase my experience and projects portfolio.</p>
 			<div class="json-card" v-for="data in michaeldsilvaJson" v-bind:key="data">
 				<sq>{</sq>
-				<p><l>name</l>: '{{data.name}}',</p>
-				<p><l>title</l>: '{{data.title}}',</p>
-				<p><l>email</l>: '<a :href=data.email[0] target="_blank">{{data.email[1]}}</a>',</p>
-				<p><l>linkedin</l>: '<a :href=data.linkedin[0] target="_blank">{{data.linkedin[1]}}</a>',</p>
-				<p><l>github</l>: '<a :href=data.github[0] target="_blank">{{data.github[1]}}</a>',</p>
-				<p><l>favouriteLanguages</l>: [</p>
+				<p>
+					<l>name</l>
+					: '{{data.name}}',
+				</p>
+				<p>
+					<l>title</l>
+					: '{{data.title}}',
+				</p>
+				<p>
+					<l>email</l>: '
+					<a :href="data.email[0]" target="_blank">{{data.email[1]}}</a>',
+				</p>
+				<p>
+					<l>linkedin</l>: '
+					<a :href="data.linkedin[0]" target="_blank">{{data.linkedin[1]}}</a>',
+				</p>
+				<p>
+					<l>github</l>: '
+					<a :href="data.github[0]" target="_blank">{{data.github[1]}}</a>',
+				</p>
+				<p>
+					<l>favouriteLanguages</l>: [
+				</p>
 				<span v-for="lang in data.favouriteLanguages" v-bind:key="lang">
 					<p>'{{lang}}',</p>
 				</span>
 				<p>],</p>
-				<p><l>favouriteFramework</l>: '{{data.favouriteFramework}}',</p>
-				<p><l>skillSets</l>: [</p>
+				<p>
+					<l>favouriteFramework</l>
+					: '{{data.favouriteFramework}}',
+				</p>
+				<p>
+					<l>skillSets</l>: [
+				</p>
 				<span v-for="skill in data.skillSets" v-bind:key="skill">
 					<p>'{{skill}}',</p>
 				</span>
@@ -57,28 +79,84 @@ export default {
 	},
 	mounted: function() {
 		$(".json-card sq").each(function() {
-			$(this).html($(this).html().replace("{", '<span style="color: var(--accent2-color)!important;">{</span>'));
+			$(this).html(
+				$(this)
+					.html()
+					.replace(
+						"{",
+						'<span style="color: var(--accent2-color)!important;">{</span>'
+					)
+			);
 		});
 		$(".json-card p").each(function() {
-			$(this).html($(this).html().replace(":", '<span style="color: var(--accent2-color)!important;">:</span>'));
+			$(this).html(
+				$(this)
+					.html()
+					.replace(
+						":",
+						'<span style="color: var(--accent2-color)!important;">:</span>'
+					)
+			);
 		});
 		$(".json-card p").each(function() {
-			$(this).html($(this).html().replace("'", '<span style="color: var(--accent2-color)!important;">&#34;</span>'));
+			$(this).html(
+				$(this)
+					.html()
+					.replace(
+						"'",
+						'<span style="color: var(--accent2-color)!important;">&#34;</span>'
+					)
+			);
 		});
 		$(".json-card p").each(function() {
-			$(this).html($(this).html().replace("',", '<span style="color: var(--accent2-color)!important;">&#34;,</span>'));
+			$(this).html(
+				$(this)
+					.html()
+					.replace(
+						"',",
+						'<span style="color: var(--accent2-color)!important;">&#34;,</span>'
+					)
+			);
 		});
 		$(".json-card p").each(function() {
-			$(this).html($(this).html().replace("],", '<span style="color: var(--accent2-color)!important;">],</span>'));
+			$(this).html(
+				$(this)
+					.html()
+					.replace(
+						"],",
+						'<span style="color: var(--accent2-color)!important;">],</span>'
+					)
+			);
 		});
 		$(".json-card p").each(function() {
-			$(this).html($(this).html().replace("[", '<span style="color: var(--accent2-color)!important;">[</span>'));
+			$(this).html(
+				$(this)
+					.html()
+					.replace(
+						"[",
+						'<span style="color: var(--accent2-color)!important;">[</span>'
+					)
+			);
 		});
 		$(".json-card p").each(function() {
-			$(this).html($(this).html().replace("]", '<span style="color: var(--accent2-color)!important;">]</span>'));
+			$(this).html(
+				$(this)
+					.html()
+					.replace(
+						"]",
+						'<span style="color: var(--accent2-color)!important;">]</span>'
+					)
+			);
 		});
 		$(".json-card sq").each(function() {
-			$(this).html($(this).html().replace("}", '<span style="color: var(--accent2-color)!important;">}</span>'));
+			$(this).html(
+				$(this)
+					.html()
+					.replace(
+						"}",
+						'<span style="color: var(--accent2-color)!important;">}</span>'
+					)
+			);
 		});
 	}
 };
@@ -137,7 +215,7 @@ l {
 .me-img img {
 	min-width: 300px;
 	display: block;
-	margin: 0em auto!important;
+	margin: 0em auto !important;
 	align-self: center;
 	border-radius: 50%;
 }
@@ -155,7 +233,7 @@ l {
 }
 
 .resume img {
-	margin: 0 auto!important;
+	margin: 0 auto !important;
 	align-self: center;
 }
 
@@ -173,7 +251,8 @@ l {
 	min-width: 350px;
 	background-color: var(--nav-color);
 	padding: 0.5em;
-    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono,
+		DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 	margin-left: 1em;
 }
 

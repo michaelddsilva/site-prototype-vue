@@ -5,7 +5,9 @@
 			<div class="links">
 				<p>
 					Icons from
-					<a target="_blank" href="https://icons8.com">Icons8</a>. Hosted through
+					<a target="_blank" href="https://icons8.com">Icons8</a> &
+					<a target="_blank" href="https://svgrepo.com">svgrepo</a>.
+					Hosted through
 					<a href="https://github.io" target="_blank">github.io</a>.
 				</p>
 			</div>

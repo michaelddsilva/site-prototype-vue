@@ -158,7 +158,7 @@ p {
 	min-width: 350px;
 	background-color: var(--nav-color);
 	padding: 0.5em;
-	font-family: Consolas;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 	margin-left: 1em;
 }
 

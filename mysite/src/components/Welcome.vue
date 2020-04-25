@@ -5,7 +5,7 @@
 			<h4>Michael D'Silva</h4>
 			</div>
 			<div class="me-img">
-				<img src="../assets/images/me_images/me3.jpg" width="300px" alt="me" />
+				<img src="../assets/images/me_images/me5.jpg" width="300px" alt="me" />
 			</div>
 			<div class="resume">
 			<h6>

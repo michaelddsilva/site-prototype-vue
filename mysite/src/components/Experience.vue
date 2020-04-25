@@ -179,6 +179,7 @@ ul {
 
 .experienceCards th a {
 	text-decoration: none;
+	font-weight: 500;
 }
 
 .experienceCards position {

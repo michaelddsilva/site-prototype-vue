@@ -3,7 +3,7 @@ export default [
         company: "CAAT Pension Plan",
         site: "https://www.caatpension.on.ca/en/",
         img: "img/organizations_logos/caat.png",
-        location: "Toronto, Ontaro",
+        location: "Toronto, Ontario",
         position: "Student (Software Development Team)",
         duration: "May &#8211 August 2020",
         description: [
@@ -15,7 +15,7 @@ export default [
         company: "Teranet",
         site: "https://www.teranet.ca/",
         img: "img/organizations_logos/teranet.png",
-        location: "Toronto, Ontaro",
+        location: "Toronto, Ontario",
         position: "Student (Enterprise Architecture Team)",
         duration: "May &#8211 August 2019",
         description: [
@@ -30,7 +30,7 @@ export default [
         company: "Teranet",
         site: "https://www.teranet.ca/",
         img: "img/organizations_logos/teranet.png",
-        location: "Toronto, Ontaro",
+        location: "Toronto, Ontario",
         position: "Student (Enterprise Architecture Team)",
         duration: "May &#8211 August 2018",
         description: [

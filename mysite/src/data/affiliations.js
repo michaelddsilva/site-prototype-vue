@@ -4,7 +4,7 @@ export default [
         name: 'Western AI',
         site: 'https://www.westernuai.com/',
         img: 'img/organizations_logos/wai.png',
-        description: 'I am currently a Project Manager for a project run through <a href="https://www.westernuai.com/" target="_blank">Western AI</a>. Western AI is "Western’s on-campus undergraduate AI community", their mission is to "mission is to educate students in important AI topics, centralize and develop AI talent, and launch AI-enabled careers in fields of interest."'
+        description: 'This past academic year, I had the opportunity to be a Project Manager for a project run through <a href="https://www.westernuai.com/" target="_blank">Western AI</a>. Western AI is "Western’s on-campus undergraduate AI community", their mission is to "mission is to educate students in important AI topics, centralize and develop AI talent, and launch AI-enabled careers in fields of interest."'
     },
     {
         display: true,

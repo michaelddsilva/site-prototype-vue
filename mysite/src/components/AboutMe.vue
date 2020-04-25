@@ -53,6 +53,7 @@
 								<p>
 									<i>Western Scholarship of Distinction</i>
 								</p>
+								<img src="img/organizations_logos/Western_Logo_H_Engineering_RGB_SIM.svg" />
 							</td>
 							<td>
 								<img src="img/organizations_logos/western.png" width="75%" />
@@ -60,7 +61,6 @@
 						</tr>
 					</tbody>
 				</table>
-				<img src="img/organizations_logos/Western_Logo_H_Engineering_RGB_SIM.svg" />
 			</div>
 		</div>
 	</b-container>
@@ -83,4 +83,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+.div1 {
+	background: none;
+	border: none;
+}
+
+table {
+padding-top: 1em;
+  padding-bottom: 1em;
+  background: var(--container-color); 
+  border-style: ridge;
+  border-width: 0.1em; 
+  border-color: var(--border-color);
+  margin-bottom: 5px;
+}
 </style>

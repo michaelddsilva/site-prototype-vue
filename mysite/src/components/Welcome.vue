@@ -22,17 +22,17 @@
 			<p>I created this site to showcase my experience and projects portfolio.</p>
 			<div class="json-card" v-for="data in michaeldsilvaJson" v-bind:key="data">
 				<sq>{</sq>
-				<p>name: '{{data.name}}',</p>
-				<p>title: '{{data.title}}',</p>
-				<p>email: '<a :href=data.email[0] target="_blank">{{data.email[1]}}</a>',</p>
-				<p>linkedin: '<a :href=data.linkedin[0] target="_blank">{{data.linkedin[1]}}</a>',</p>
-				<p>github: '<a :href=data.github[0] target="_blank">{{data.github[1]}}</a>',</p>
-				<p>favouriteLanguages:</p>
+				<p><l>name</l>: '{{data.name}}',</p>
+				<p><l>title</l>: '{{data.title}}',</p>
+				<p><l>email</l>: '<a :href=data.email[0] target="_blank">{{data.email[1]}}</a>',</p>
+				<p><l>linkedin</l>: '<a :href=data.linkedin[0] target="_blank">{{data.linkedin[1]}}</a>',</p>
+				<p><l>github</l>: '<a :href=data.github[0] target="_blank">{{data.github[1]}}</a>',</p>
+				<p><l>favouriteLanguages</l>:</p>
 				<span v-for="lang in data.favouriteLanguages" v-bind:key="lang">
 					<p>'{{lang}}',</p>
 				</span>
-				<p>favouriteFramework: '{{data.favouriteFramework}}',</p>
-				<p>skillSets:</p>
+				<p><l>favouriteFramework</l>: '{{data.favouriteFramework}}',</p>
+				<p><l>skillSets</l>:</p>
 				<span v-for="skill in data.skillSets" v-bind:key="skill">
 					<p>'{{skill}}',</p>
 				</span>
@@ -77,6 +77,10 @@ export default {
 <style scoped>
 p {
 	margin: 8px;
+}
+
+l {
+	color: var(--inactive-p-color);
 }
 
 .me {
@@ -145,10 +149,10 @@ p {
 }
 
 .me2 {
-	padding-left: 1em;
+	margin-left: 1em;
 	background: none;
 	width: 60%;
-	min-width: 350px;
+	min-width: 340px;
 	display: inline-block;
 	vertical-align: top;
 }

@@ -39,7 +39,7 @@ export default {
 			typeMyName();
 			await sleep(2165);
 			await sleep(500);
-			var speed2 = 100;
+			var speed2 = 80;
 			document.getElementById("hello").innerHTML = "Hi, I'm Michael D'Silva";
 			await sleep(speed2);
 			document.getElementById("hello").innerHTML = "i, I'm Michael D'Silva";

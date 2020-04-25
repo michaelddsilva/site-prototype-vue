@@ -20,14 +20,15 @@ export default {
 		nav.setAttribute("style", "display:none");
 		var i = 0;
 		var name = "Hi, I'm Michael D'Silva.";
-		var speed1 = 80;
+		var speed1 = 60;
+		var spaceSpeed = 10
 		function sleep(ms) {
 			return new Promise(resolve => setTimeout(resolve, ms));
 		}
 		async function typeMyName() {
 			if (i < name.length) {
 				document.getElementById("hello").innerHTML += name.charAt(i);
-				await sleep(10);
+				await sleep(spaceSpeed);
 				i++;
 
 				setTimeout(typeMyName, speed1);
@@ -37,7 +38,7 @@ export default {
 
 		async function loadName() {
 			typeMyName();
-			await sleep(2165);
+			await sleep((speed1+spaceSpeed)*24);
 			await sleep(500);
 			var speed2 = 80;
 			document.getElementById("hello").innerHTML = "Hi, I'm Michael D'Silva";

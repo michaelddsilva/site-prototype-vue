@@ -24,9 +24,9 @@
 				<sq>{</sq>
 				<p>name: '{{data.name}}',</p>
 				<p>title: '{{data.title}}',</p>
-				<p>email: '<a href=data.email[0] target="_blank">{{data.email[1]}}</a>',</p>
-				<p>linkedin: '<a href=data.linkedin[0] target="_blank">{{data.linkedin[1]}}</a>',</p>
-				<p>github: '<a href=data.github[0] target="_blank">{{data.github[1]}}</a>',</p>
+				<p>email: '<a :href=data.email[0] target="_blank">{{data.email[1]}}</a>',</p>
+				<p>linkedin: '<a :href=data.linkedin[0] target="_blank">{{data.linkedin[1]}}</a>',</p>
+				<p>github: '<a :href=data.github[0] target="_blank">{{data.github[1]}}</a>',</p>
 				<p>favouriteLanguages:</p>
 				<span v-for="lang in data.favouriteLanguages" v-bind:key="lang">
 					<p>'{{lang}}',</p>

@@ -27,15 +27,17 @@
 				<p><l>email</l>: '<a :href=data.email[0] target="_blank">{{data.email[1]}}</a>',</p>
 				<p><l>linkedin</l>: '<a :href=data.linkedin[0] target="_blank">{{data.linkedin[1]}}</a>',</p>
 				<p><l>github</l>: '<a :href=data.github[0] target="_blank">{{data.github[1]}}</a>',</p>
-				<p><l>favouriteLanguages</l>:</p>
+				<p><l>favouriteLanguages</l>: [</p>
 				<span v-for="lang in data.favouriteLanguages" v-bind:key="lang">
 					<p>'{{lang}}',</p>
 				</span>
+				<p>],</p>
 				<p><l>favouriteFramework</l>: '{{data.favouriteFramework}}',</p>
-				<p><l>skillSets</l>:</p>
+				<p><l>skillSets</l>: [</p>
 				<span v-for="skill in data.skillSets" v-bind:key="skill">
 					<p>'{{skill}}',</p>
 				</span>
+				<p>]</p>
 				<sq>}</sq>
 			</div>
 		</div>
@@ -65,6 +67,15 @@ export default {
 		});
 		$(".json-card p").each(function() {
 			$(this).html($(this).html().replace("',", '<span style="color: var(--accent2-color)!important;">&#34;,</span>'));
+		});
+		$(".json-card p").each(function() {
+			$(this).html($(this).html().replace("],", '<span style="color: var(--accent2-color)!important;">],</span>'));
+		});
+		$(".json-card p").each(function() {
+			$(this).html($(this).html().replace("[", '<span style="color: var(--accent2-color)!important;">[</span>'));
+		});
+		$(".json-card p").each(function() {
+			$(this).html($(this).html().replace("]", '<span style="color: var(--accent2-color)!important;">]</span>'));
 		});
 		$(".json-card sq").each(function() {
 			$(this).html($(this).html().replace("}", '<span style="color: var(--accent2-color)!important;">}</span>'));

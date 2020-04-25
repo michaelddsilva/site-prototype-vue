@@ -11,11 +11,11 @@
   --accent2-color: #8be9fd;
   --inactive-p-color: grey;
   --active-p-color: black;
-  --name-background-color: rgb(5, 16, 46);
+  --name-background-color: #05102e;
   --name-text-color: whitesmoke;
-  --complete-color: rgb(4, 160, 113);
-  --work-in-progress-color: rgb(4, 160, 113);
-  --in-progress-color: rgb(226, 192, 0);
+  --complete-color: #04a071;
+  --work-in-progress-color: #04a071;
+  --in-progress-color: #e2c000;
 }
 
 [site-theme="dark"] {
@@ -28,7 +28,7 @@
   --link-color: #03daab;
   --accent-color: #03daab;
   --accent2-color: #8be9fd;
-  --inactive-p-color: rgb(158, 157, 157);
+  --inactive-p-color: #9e9d9d;
   --active-p-color: white;
   --name-background-color: black;
   --name-text-color: white;

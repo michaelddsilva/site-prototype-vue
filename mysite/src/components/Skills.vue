@@ -2,13 +2,16 @@
 	<b-container class="container" id="skillsComponent">
 		<h1>Skills</h1>
 
-		<div class="div1" v-for="data in categoryJson" v-bind:key="data">
-			<img :src="data.img" height="40px" />
-			<h3>{{data.category}}</h3>
+		<span v-for="data in categoryJson" v-bind:key="data">
+			<div class="div1" v-if="data.display">
+				<img :src="data.img" height="40px" />
+			<h4>{{data.category}}</h4>
+			<p v-if="data.description">{{data.description}}</p>
 			<ul v-for="skill in data.items" v-bind:key="skill">
 				<li>{{skill}}</li>
 			</ul>
-		</div>
+			</div>
+		</span>
 	</b-container>
 </template>
 
@@ -29,7 +32,7 @@ export default {
 .div1 {
 	min-width: 350px;
 	min-height: 250px;
-	width: 26%;
+	width: 30%;
 }
 
 ul {

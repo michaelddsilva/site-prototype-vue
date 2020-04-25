@@ -6,7 +6,8 @@ export  default [
             'HTML / CSS',
             'JavaScript',
             'Angular',
-            'Vue.js'
+            'Vue.js',
+            'Android Studio',
         ]
     },
     {
@@ -27,24 +28,6 @@ export  default [
             'C++',
             'C#',
             'Java',
-        ]
-    },
-    {
-        category: 'Mobile App Development',
-        img: 'img/skills_symbols/icons8-mobile-64.png',
-        items: [
-            'Android Studio',
-            'Java',
-        ]
-    },
-    {
-        category: 'Tools',
-        img: 'img/skills_symbols/icons8-sonic-screwdriver-80.png',
-        items: [
-            'Git',
-            'Jira',
-            'Unity Game Engine',
-            'MySQL',
         ]
     },
 ]

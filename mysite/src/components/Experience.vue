@@ -11,13 +11,15 @@
 							<tr>
 								<th>
 									<position>{{data.position}}</position>
-									<br />
+									<br/>
 									<p>
 										<a :href="data.site" target="_blank">{{data.company}} &#9701; </a>
 									</p>
 									<p v-html="data.duration"></p>
+									<br/>
+									<p><i class="material-icons" style="font-size:14px">place</i> {{data.location}}</p>
 								</th>
-								<th width="23%">
+								<th width="20%">
 									<img :src="data.img" width="100%" />
 								</th>
 							</tr>
@@ -44,16 +46,18 @@
 					<table>
 						<thead>
 							<tr>
-								<th width="23%">
+								<th width="20%">
 									<img :src="data.img" width="100%" />
 								</th>
 								<th>
 									<position>{{data.position}}</position>
-									<br />
+									<br/>
 									<p>
 										<a :href="data.site" target="_blank">{{data.organization}} &#9701; </a>
 									</p>
 									<p v-html="data.duration"></p>
+									<br/>
+									<p><i class="material-icons" style="font-size:14px">place</i> {{data.location}}</p>
 								</th>
 							</tr>
 						</thead>
@@ -172,7 +176,8 @@ ul {
 }
 
 .experienceCards position {
-	font-size: 1.5em;
+	font-size: 1.25em;
+	font-weight: 400;
 }
 
 img {

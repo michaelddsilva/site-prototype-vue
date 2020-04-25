@@ -149,6 +149,11 @@ visibility: visible;
 
 ul {
   list-style-type: square;
+  list-style-image: url('../images/misc/triangle.svg');
+}
+
+li {
+	padding-left: 5px;
 }
 
 h1 {

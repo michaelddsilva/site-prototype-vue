@@ -1,8 +1,9 @@
 export default [
     {
-        organization: "WESTERN AI",
+        organization: "Western AI",
         site: "https://www.westernuai.com/",
         img: "img/organizations_logos/wai.png",
+        location: "London, Ontaro",
         position: "Project Manager",
         duration: "October 2019 &#8211 April 2020",
         description: [
@@ -13,9 +14,10 @@ export default [
         display: true,
     },
     {
-        organization: "WESTERN MANAGEMENT CLUB",
+        organization: "Western Management Club",
         site: "https://www.westernmanagementclub.com/",
         img: "img/organizations_logos/wmc.png",
+        location: "London, Ontaro",
         position: "Management Consultant",
         duration: "November 2019 &#8211 April 2020",
         description: [
@@ -25,9 +27,10 @@ export default [
         display: true,
     },
     {
-        organization: "WESTERN MANAGEMENT CLUB",
+        organization: "Western Management Club",
         site: "https://www.westernmanagementclub.com/",
         img: "img/organizations_logos/wmc.png",
+        location: "London, Ontaro",
         position: "Management Consultant",
         duration: "October 2018 &#8211 April 2019",
         description: [

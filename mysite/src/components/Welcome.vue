@@ -54,19 +54,19 @@ export default {
 		};
 	},
 	mounted: function() {
-		$("p").each(function() {
+		$(".json-card sq").each(function() {
 			$(this).html($(this).html().replace("{", '<span style="color: var(--accent2-color)!important;">{</span>'));
 		});
-		$("p").each(function() {
+		$(".json-card p").each(function() {
 			$(this).html($(this).html().replace(":", '<span style="color: var(--accent2-color)!important;">:</span>'));
 		});
-		$("p").each(function() {
+		$(".json-card p").each(function() {
 			$(this).html($(this).html().replace("'", '<span style="color: var(--accent2-color)!important;">&#34;</span>'));
 		});
-		$("p").each(function() {
+		$(".json-card p").each(function() {
 			$(this).html($(this).html().replace("',", '<span style="color: var(--accent2-color)!important;">&#34;,</span>'));
 		});
-		$("p").each(function() {
+		$(".json-card sq").each(function() {
 			$(this).html($(this).html().replace("}", '<span style="color: var(--accent2-color)!important;">}</span>'));
 		});
 	}

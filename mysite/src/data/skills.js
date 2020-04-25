@@ -1,7 +1,7 @@
 export  default [
     {
         category: 'Front End Development',
-        img: 'img/skills_symbols/icons8-monitor-512.png',
+        img: 'img/skills_symbols/monitor.svg',
         items: [
             'HTML / CSS',
             'JavaScript',
@@ -12,7 +12,7 @@ export  default [
     },
     {
         category: 'Back End Development',
-        img: 'img/skills_symbols/icons8-server-64.png',
+        img: 'img/skills_symbols/server.svg',
         items: [
             'Express.js',
             'Node.js',
@@ -23,7 +23,7 @@ export  default [
     },
     {
         category: 'Object Orientated Programming',
-        img: 'img/skills_symbols/icons8-keyboard-512.png',
+        img: 'img/skills_symbols/keyboard.svg',
         items: [
             'C++',
             'C#',

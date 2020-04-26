@@ -23,10 +23,12 @@
 			<div class="json-card" v-for="data in michaeldsilvaJson" v-bind:key="data">
 				<sq>{</sq>
 				<p>
-					<l>name</l>:'{{data.name}}',
+					<l>name</l>
+					:'{{data.name}}',
 				</p>
 				<p>
-					<l>title</l>: '{{data.title}}',
+					<l>title</l>
+					: '{{data.title}}',
 				</p>
 				<p>
 					<l>email</l>: '

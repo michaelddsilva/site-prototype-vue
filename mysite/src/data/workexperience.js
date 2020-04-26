@@ -4,7 +4,7 @@ export default [
         site: "https://www.caatpension.on.ca/en/",
         img: "img/organizations_logos/caat.png",
         location: "Toronto, Ontario",
-        position: "Student (Software Development Team)",
+        position: "Student (Software Development)",
         duration: "May &#8211 August 2020",
         description: [
             'Incoming student in the software development department',
@@ -16,12 +16,11 @@ export default [
         site: "https://www.teranet.ca/",
         img: "img/organizations_logos/teranet.png",
         location: "Toronto, Ontario",
-        position: "Student (Enterprise Architecture Team)",
+        position: "Student (Enterprise Architecture)",
         duration: "May &#8211 August 2019",
         description: [
-            'Worked under mentorship of the head of the Architecture practice',
+            'Conducted research and analysis for the Technology Architecture Group',
             'Designed new SharePoint site for Architecture Team',
-            'Performed evaluations of technologies',
             'Participated in the redesigning and updating of Architecture process flows',
         ],
         display: true,
@@ -31,7 +30,7 @@ export default [
         site: "https://www.teranet.ca/",
         img: "img/organizations_logos/teranet.png",
         location: "Toronto, Ontario",
-        position: "Student (Enterprise Architecture Team)",
+        position: "Student (Enterprise Architecture)",
         duration: "May &#8211 August 2018",
         description: [
             'Conducted research and analysis for the Technology Architecture Group',

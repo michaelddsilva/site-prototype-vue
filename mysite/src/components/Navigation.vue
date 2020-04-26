@@ -139,15 +139,15 @@ export default {
 }
 
 .switch-container {
-	vertical-align: middle;
+	vertical-align: bottom;
 }
 
 .switch {
 	position: relative;
 	display: inline-block;
-	padding-top: 1;
-	width: 4em;
-	height: 2em;
+	padding-top: 1px;
+	width: 2.75em;
+	height: 1.5em;
 }
 
 .switch input {
@@ -159,10 +159,10 @@ export default {
 .slider {
 	position: absolute;
 	cursor: pointer;
-	top: 0;
+	top: 5px;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: -4px;
 	background-color: #ccc;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
@@ -171,8 +171,8 @@ export default {
 .slider:before {
 	position: absolute;
 	content: "";
-	height: 1.5em;
-	width: 1.5em;
+	height: 1em;
+	width: 1em;
 	left: 4px;
 	bottom: 4px;
 	background-color: var(--background-color);
@@ -189,9 +189,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-	-webkit-transform: translateX(26px);
-	-ms-transform: translateX(26px);
-	transform: translateX(26px);
+	-webkit-transform: translateX(21px);
+	-ms-transform: translateX(21px);
+	transform: translateX(21px);
 }
 
 .slider.round {

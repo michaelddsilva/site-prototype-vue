@@ -21,6 +21,8 @@
 										<img src="../assets/images/misc/location.svg" height="14px" />
 										{{data.location}}
 									</p>
+									<br />
+									<p class="details" id="detailsLabel">SHOW DETAILS</p>
 								</th>
 								<th width="20%">
 									<img :src="data.img" width="100%" />
@@ -64,6 +66,8 @@
 										<img src="../assets/images/misc/location.svg" height="14px" />
 										{{data.location}}
 									</p>
+									<br/>
+									<p class="details" id="detailsLabel">SHOW DETAILS</p>
 								</th>
 							</tr>
 						</thead>
@@ -98,8 +102,19 @@ export default {
 	},
 	methods: {},
 	mounted: function() {
-		$("thead").on("click", function() {
-			console.log("thead clicked");
+		var bool = false;
+		$("p.details")
+			.parents("table")
+			.find("tbody")
+			.toggle();
+
+		$("p.details").on("click", function() {
+			bool = !bool;
+			if(bool) {
+				$(this).html("HIDE DETAILS")
+			} else {
+				$(this).html("SHOW DETAILS")
+			}
 			$(this)
 				.parents("table")
 				.find("tbody")
@@ -137,6 +152,11 @@ ul {
 	min-width: 350px;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.details {
+	padding-left: 1em;
+	font-weight: 500;
 }
 
 .experienceCards {

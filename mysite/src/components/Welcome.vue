@@ -235,6 +235,7 @@ l {
 .resume img {
 	margin: 0 auto !important;
 	align-self: center;
+	pointer-events: all;
 }
 
 .me2 {

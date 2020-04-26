@@ -82,19 +82,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .div1 {
 	background: none;
 	border: none;
 }
 
+img {
+	pointer-events: all;
+}
+
 table {
-padding-top: 1em;
-  padding-bottom: 1em;
-  background: var(--container-color); 
-  border-style: ridge;
-  border-width: 0.1em; 
-  border-color: var(--border-color);
-  margin-bottom: 5px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: var(--container-color);
+	border-style: ridge;
+	border-width: 0.1em;
+	border-color: var(--border-color);
+	margin-bottom: 5px;
 }
 </style>

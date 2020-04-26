@@ -15,10 +15,10 @@
 					<b-nav-item href="https://www.github.com/michaelddsilva" target="_blank">
 						<i class="fab fa-github"></i>
 					</b-nav-item>
-					<b-nav-item href="#aboutMe">About Me</b-nav-item>
-					<b-nav-item href="#experience">Experience</b-nav-item>
-					<b-nav-item href="#skills">Skills</b-nav-item>
-					<b-nav-item href="#projects">Projects</b-nav-item>
+					<b-nav-item id="aboutMe" href="">About Me</b-nav-item>
+					<b-nav-item id="experience" href="">Experience</b-nav-item>
+					<b-nav-item id="skills" href="">Skills</b-nav-item>
+					<b-nav-item id="projects" href="">Projects</b-nav-item>
 				</b-navbar-nav>
 				<div class="switch-container">
 					<label class="switch">
@@ -67,6 +67,11 @@ export default {
 		scrollToTop() {
 			document.documentElement.scrollTop = 0;
 			history.pushState("", document.title, window.location.pathname);
+		},
+		scrollToComponent(component) {
+			console.log('aboutTime');
+			let aboutComponent = document.getElementById(component);
+			aboutComponent.scrollIntoView();
 		}
 	},
 
@@ -83,6 +88,10 @@ export default {
 			document.documentElement.setAttribute("site-theme", "light");
 		}
 		document.getElementById("brand").onclick = this.scrollToTop;
+		document.getElementById("aboutMe").onclick = () => this.scrollToComponent("aboutMeComponent");
+		document.getElementById("experience").onclick = () => this.scrollToComponent("experienceComponent");
+		document.getElementById("skills").onclick = () => this.scrollToComponent("skillsComponent");
+		document.getElementById("projects").onclick = () => this.scrollToComponent("projectsComponent");
 	}
 };
 </script>

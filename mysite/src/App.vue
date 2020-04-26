@@ -1,17 +1,11 @@
 <template>
   <div id="app">
     <Navigation/>
-    <div id="helloWorld"></div>
     <HelloWorld/>
-    <div id="welcome"></div>
     <Welcome/>
-    <div id="aboutMe"></div>
     <AboutMe/>
-    <div id="experience"></div>
     <Experience/>
-    <div id="skills"></div>
     <Skills/>
-    <div id="projects"></div>
     <Projects/>
     <Footer/>
   </div>

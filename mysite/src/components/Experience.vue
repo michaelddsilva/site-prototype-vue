@@ -13,7 +13,7 @@
 									<position>{{data.position}}</position>
 									<br />
 									<p>
-										<a :href="data.site" target="_blank">{{data.company}} &#9701; </a>
+										<a :href="data.site" target="_blank">{{data.company}} &#9701;&nbsp;</a>
 									</p>
 									<p v-html="data.duration"></p>
 									<br />
@@ -56,7 +56,7 @@
 									<position>{{data.position}}</position>
 									<br />
 									<p>
-										<a :href="data.site" target="_blank">{{data.organization}} &#9701; </a>
+										<a :href="data.site" target="_blank">{{data.organization}} &#9701;&nbsp;</a>
 									</p>
 									<p v-html="data.duration"></p>
 									<br />

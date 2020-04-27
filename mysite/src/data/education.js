@@ -2,6 +2,8 @@ export default [
     {
         institution: "Western University (UWO)",
         institutionIMG: "img/organizations_logos/western.png",
+        site: "https://uwo.ca",
+        location: "London, Ontario",
         degree: "Candidate for Bachelor of Engineering Science (BESc)",
         specialization: "Software Engineering",
         duration: "September 2017 &#8211 Present",

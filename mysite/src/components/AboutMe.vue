@@ -35,32 +35,35 @@
 			<div class="div1">
 				<h2>Education</h2>
 				<div class="education" v-for="data in educationJson" v-bind:key="data">
-				<table>
-					<thead>
-						<tr>
-							<td>
-								<b>{{data.institution}}</b>
-							</td>
-							<td>
-								<b v-html="data.duration"></b>
-							</td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								<p>{{data.degree}}, {{data.specialization}}</p>
-								<p>
-									<i>Western Scholarship of Distinction</i>
-								</p>
-								<img :src=data.facultyIMG />
-							</td>
-							<td>
-								<img :src=data.institutionIMG width="75%" />
-							</td>
-						</tr>
-					</tbody>
-				</table>
+					<table>
+						<thead>
+							<tr>
+								<td width="10%">
+									<img :src="data.institutionIMG" width="80%" />
+								</td>
+								<td>
+									<h6>{{data.degree}},</h6>
+									<h6>{{data.specialization}}</h6>
+									<p>
+										<a :href="data.site" target="_blank">{{data.institution}}&nbsp;</a>
+									</p>
+									<p style="display: inline-block">
+										<img src="../assets/images/misc/location.svg" height="14px"/>
+										{{data.location}}
+									</p>
+									<br/>
+									<p v-html="data.duration"></p>
+									<br/>
+									<p style="line-height: 3.0">
+										<i>{{data.scholarships}}</i>
+									</p>
+									<br/>
+									<img :src="data.facultyIMG" />
+								</td>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
 				</div>
 			</div>
 		</div>
@@ -75,7 +78,7 @@ export default {
 	data() {
 		return {
 			affiliationsJson: affiliationsData,
-			educationJson: educationData,
+			educationJson: educationData
 		};
 	},
 	mounted() {
@@ -103,5 +106,27 @@ table {
 	border-width: 0.1em;
 	border-color: var(--border-color);
 	margin-bottom: 5px;
+}
+
+.education tr p {
+	margin: 2px;
+	display: inline;
+}
+
+.education h6 {
+	margin: 1px;
+}
+
+.education p img {
+	margin: 1px;
+}
+
+.education tr a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.education p i {
+	line-height: 80%;
 }
 </style>

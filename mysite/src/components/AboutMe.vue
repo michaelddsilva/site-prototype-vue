@@ -34,44 +34,48 @@
 
 			<div class="div1">
 				<h2>Education</h2>
+				<div class="education" v-for="data in educationJson" v-bind:key="data">
 				<table>
 					<thead>
 						<tr>
 							<td>
-								<b>Western University (UWO)</b>
+								<b>{{data.institution}}</b>
 							</td>
 							<td>
-								<b>September 2017 - Present</b>
+								<b v-html="data.duration"></b>
 							</td>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td>
-								<p>Candidate for Bachelor of Engineering Science (BESc), Software Engineering</p>
+								<p>{{data.degree}}, {{data.specialization}}</p>
 								<p>
 									<i>Western Scholarship of Distinction</i>
 								</p>
-								<img src="img/organizations_logos/Western_Logo_H_Engineering_RGB_SIM.svg" />
+								<img :src=data.facultyIMG />
 							</td>
 							<td>
-								<img src="img/organizations_logos/western.png" width="75%" />
+								<img :src=data.institutionIMG width="75%" />
 							</td>
 						</tr>
 					</tbody>
 				</table>
+				</div>
 			</div>
 		</div>
 	</b-container>
 </template>
 
 <script>
-import affiliationsData from "../data/affiliations";
+import affiliationsData from "../data/affiliations.js";
+import educationData from "../data/education.js";
 export default {
 	name: "AboutMe",
 	data() {
 		return {
-			affiliationsJson: affiliationsData
+			affiliationsJson: affiliationsData,
+			educationJson: educationData,
 		};
 	},
 	mounted() {

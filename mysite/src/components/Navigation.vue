@@ -69,7 +69,6 @@ export default {
 			history.pushState("", document.title, window.location.pathname);
 		},
 		scrollToComponent(component) {
-			console.log('aboutTime');
 			let aboutComponent = document.getElementById(component);
 			aboutComponent.scrollIntoView();
 		}

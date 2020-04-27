@@ -54,9 +54,11 @@
 									<br/>
 									<p v-html="data.duration"></p>
 									<br/>
-									<p style="line-height: 3.0">
+									<br/>
+									<p>
 										<i>{{data.scholarships}}</i>
 									</p>
+									<br/>
 									<br/>
 									<img :src="data.facultyIMG" />
 								</td>

@@ -93,7 +93,7 @@ export default [
     },
     {
         title: 'Computer Vision Project',
-        display: true,
+        display: false,
         link: '',
         linkDisplay: '',
         code: '',
@@ -111,7 +111,7 @@ export default [
     },
     {
         title: 'Personal Site',
-        display: true,
+        display: false,
         link: 'https://briannadsilva.com',
         linkDisplay: 'briannadsilva.com',
         code: 'https://github.com/briannadsilva/briannadsilva.github.io',

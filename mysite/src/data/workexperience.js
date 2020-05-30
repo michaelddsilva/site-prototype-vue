@@ -7,7 +7,7 @@ export default [
         position: "Student (Software Development)",
         duration: "May &#8211 August 2020",
         description: [
-            'Incoming student in the software development department',
+            'Working on projects in the software development department',
         ],
         display: true,
     },

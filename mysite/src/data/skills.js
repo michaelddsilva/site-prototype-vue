@@ -8,6 +8,7 @@ export  default [
             'HTML / CSS / JavaScript',
             'Angular',
             'Vue.js',
+            '.NET',
             'Unity / C#'
         ]
     },
@@ -18,7 +19,8 @@ export  default [
         description: 'I find the applications of these technologies intriguing.',
         items: [
             'Node.js / Express',
-            'MongoDB',
+            'MongoDB / mongooose',
+            'Redis / Bee-queue',
             'Firebase',
             'SQL',
         ]
@@ -42,6 +44,7 @@ export  default [
         items: [
             'Object Orientated Programming',
             'UML',
+            'Git',
             'Agile (SCRUM)',
             'Waterfall',
         ]

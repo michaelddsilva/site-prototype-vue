@@ -8,7 +8,7 @@ export  default [
             'HTML / CSS / JavaScript',
             'Angular',
             'Vue.js',
-            '.NET',
+            'React',
             'Unity / C#'
         ]
     },

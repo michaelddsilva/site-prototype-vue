@@ -18,7 +18,7 @@
 		</div>
 		<div class="me2">
 			<h3>Welcome to my site.</h3>
-			<p>I am a third year software engineering student at Western University (UWO).</p>
+			<p>I am a fourth year software engineering student at Western University (UWO).</p>
 			<p>I created this site to showcase my experience and projects portfolio.</p>
 			<div class="json-card" v-for="data in michaeldsilvaJson" v-bind:key="data">
 				<sq>{</sq>
@@ -31,16 +31,13 @@
 					: '{{data.title}}',
 				</p>
 				<p>
-					<l>email</l>: '
-					<a :href="data.email[0]" target="_blank">{{data.email[1]}}</a>',
+					<l>email</l>: '<a :href="data.email[0]" target="_blank">{{data.email[1]}}</a>',
 				</p>
 				<p>
-					<l>linkedin</l>: '
-					<a :href="data.linkedin[0]" target="_blank">{{data.linkedin[1]}}</a>',
+					<l>linkedin</l>: '<a :href="data.linkedin[0]" target="_blank">{{data.linkedin[1]}}</a>',
 				</p>
 				<p>
-					<l>github</l>: '
-					<a :href="data.github[0]" target="_blank">{{data.github[1]}}</a>',
+					<l>github</l>: '<a :href="data.github[0]" target="_blank">{{data.github[1]}}</a>',
 				</p>
 				<p>
 					<l>favouriteLanguages</l>: [

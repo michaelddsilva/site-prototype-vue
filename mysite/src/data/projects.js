@@ -6,7 +6,7 @@ export default [
         linkDisplay: 'michaeldsilva.com',
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         repo: 'michaelddsilva.github.io',
-        status: 'Work In Progress',
+        status: 'On Going',
         img: [
             'img/project_images/m-icon.png', 
             'img/project_images/vue.png',

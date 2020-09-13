@@ -7,7 +7,9 @@ export default [
         position: "Student (Software Development)",
         duration: "May &#8211 August 2020",
         description: [
-            'Working on projects in the software development department',
+            'Created Unit Tests for applications',
+            'Worked in an Agile (SCRUM) team where I implemented functionalities according to business requirements',
+            'Added fixes and  enhancements to existing internal applications',
         ],
         display: true,
     },

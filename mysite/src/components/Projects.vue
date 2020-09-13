@@ -15,7 +15,7 @@
 						style="background-color: var(--in-progress-color)"
 					>{{data.status}}</mark>
 					<mark
-						v-else-if="data.status=='Work In Progress'"
+						v-else-if="data.status=='On Going'"
 						style="background-color: var(--work-in-progress-color)"
 					>{{data.status}}</mark>
 				</p>

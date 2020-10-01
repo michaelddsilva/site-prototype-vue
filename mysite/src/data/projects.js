@@ -19,6 +19,22 @@ export default [
         ]
     },
     {
+        title: 'Capstone Project',
+        display: false,
+        link: '',
+        linkDisplay: '',
+        code: '',
+        repo: '',
+        status: 'In Progress',
+        img: [
+            'img/project_images/react.png',
+            'img/project_images/nodejs.png',
+        ],
+        description: [
+            'Working on a year long capstone project with three other software engineering students.',
+        ]
+    },
+    {
         title: 'Shoot \'em up Game',
         display: true,
         link: '/game/',
@@ -38,9 +54,9 @@ export default [
     },
     {
         title: 'Full Stack Web Application',
-        display: true,
+        display: false,
         link: '',
-        linkDisplay: 'play here',
+        linkDisplay: 'link',
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
         repo: '',
         status: 'Complete',
@@ -56,8 +72,25 @@ export default [
         ]
     },
     {
-        title: 'Relational DB Application',
+        title: 'Backend for Mobile Application',
         display: true,
+        link: 'https://github.com/michaelddsilva/runnup-server',
+        linkDisplay: 'repo',
+        code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
+        repo: '',
+        status: 'Complete',
+        img: [
+            'img/project_images/mongodb.png', 
+            'img/project_images/nodejs.png'
+        ],
+        description: [
+            'Designed a mobile application with three other engineering students.',
+            'Designed and implemented the server and DB logic for the server (Node.js, Express, MongoDB)',
+        ]
+    },
+    {
+        title: 'Relational DB Application',
+        display: false,
         link: '',
         linkDisplay: '',
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
@@ -142,6 +175,22 @@ export default [
             'Made a sketchpad web app for my Human Computer Interfaces course.',
             'This vue web app is implemented with <a target="_blank" href="http://fabricjs.com/">fabricjs</a>',
             'NOTE: This vue web app is only optimized for desktop',
+        ]
+    },
+    {
+        title: 'Cipher Checker App',
+        display: true,
+        link: '/cipher-checker',
+        linkDisplay: 'michaeldsilva.com/cipher-checker',
+        code: 'https://github.com/michaelddsilva/cipher-checker',
+        repo: 'cipher-checker',
+        status: 'Complete',
+        img: [
+            'img/project_images/vue.png',
+        ],
+        description: [
+            'Made a cipher-checker web app.',
+            'This app will allow the user to play around with encryption and decrpytion using caesar, vigenère, or enigma ciphers.',
         ]
     },
 ]

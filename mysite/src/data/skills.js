@@ -45,8 +45,8 @@ export  default [
             'Object Orientated Programming',
             'UML',
             'Git',
-            'Agile (SCRUM)',
-            'Waterfall',
+            'Agile (SCRUM) / Waterfall',
+            'Unit Testing',
         ]
     },
 ]

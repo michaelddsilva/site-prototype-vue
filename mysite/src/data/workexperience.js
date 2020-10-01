@@ -7,9 +7,10 @@ export default [
         position: "Student (Software Development)",
         duration: "May &#8211 August 2020",
         description: [
-            'Created Unit Tests for applications',
-            'Worked in an Agile (SCRUM) team where I implemented functionalities according to business requirements',
-            'Added fixes and  enhancements to existing internal applications',
+            'Worked in an Agile (SCRUM) team where I implemented functionalities according to business requirements while meeting sprint deadlines ',
+            'Implemented functionalities for a .NET Core server that interacts with a SQL database',
+            'Created Unit Tests for applications with the xUnit framework and Moq',
+            'Added fixes and enhancements to existing internal applications',
         ],
         display: true,
     },

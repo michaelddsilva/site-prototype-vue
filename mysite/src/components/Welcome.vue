@@ -5,10 +5,10 @@
 				<h4>Michael D'Silva</h4>
 			</div>
 			<div class="me-img">
-				<img src="../assets/images/me_images/me2020b.jpg" width="300px" alt="me" />
+				<img src="../assets/images/me_images/me2021.jpeg" width="300px" alt="me" />
 			</div>
 			<div class="me1">
-				<h5>4th yr software eng</h5>
+				<h5>Web Developer</h5>
 			</div>
 			<div class="resume">
 				<h6>
@@ -21,7 +21,7 @@
 		</div>
 		<div class="me2">
 			<h3>Welcome to my site.</h3>
-			<p>I am a fourth year software engineering student at Western University (UWO).</p>
+			<p>I am a graduate from Western University (UWO) with a degree in Software Engineering.</p>
 			<p>I created this site to showcase my experience and projects portfolio.</p>
 			<div class="json-card" v-for="data in michaeldsilvaJson" v-bind:key="data">
 				<sq>{</sq>
@@ -30,8 +30,8 @@
 					:'{{data.name}}',
 				</p>
 				<p>
-					<l>title</l>
-					: '{{data.title}}',
+					<l>degree</l>
+					: '{{data.degree}}',
 				</p>
 				<p>
 					<l>email</l>: '<a :href="data.email[0]" target="_blank">{{data.email[1]}}</a>',

@@ -21,8 +21,8 @@ export  default [
             'Node.js / Express',
             'MongoDB / mongooose',
             'Redis / Bee-queue',
-            'Firebase',
             'SQL',
+            '.NET Core'
         ]
     },
     {
@@ -34,6 +34,7 @@ export  default [
             'C++',
             'C#',
             'Java',
+            'Python',
         ]
     },
     {

@@ -4,6 +4,18 @@ export default [
         site: "https://www.caatpension.on.ca/en/",
         img: "img/organizations_logos/caat.png",
         location: "Toronto, Ontario",
+        position: "Web Developer",
+        duration: "May 2021 &#8211 Present",
+        description: [
+            'Working in the software development team at CAAT Pension Plan',
+        ],
+        display: true,
+    },
+    {
+        company: "CAAT Pension Plan",
+        site: "https://www.caatpension.on.ca/en/",
+        img: "img/organizations_logos/caat.png",
+        location: "Toronto, Ontario",
         position: "Student (Software Development)",
         duration: "May &#8211 August 2020",
         description: [

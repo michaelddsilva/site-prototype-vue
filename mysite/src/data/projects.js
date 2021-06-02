@@ -20,26 +20,46 @@ export default [
     },
     {
         title: 'Capstone Project',
-        display: false,
+        display: true,
         link: '',
         linkDisplay: '',
         code: '',
         repo: '',
-        status: 'In Progress',
+        status: 'Complete',
         img: [
             'img/project_images/react.png',
-            'img/project_images/nodejs.png',
+            'img/project_images/flask.png',
+            'img/project_images/python.png',
+            'img/project_images/leaflet.svg',
         ],
         description: [
-            'Working on a year long capstone project with three other software engineering students.',
+            'Worked on a year long capstone project with three other software engineering students.',
+            'This project consists of a react web app that connects to a flask server to retrieve and render JSON data based on input from user interacting with a leafet component.'
+        ]
+    },
+    {
+        title: 'Cold Crash',
+        display: true,
+        link: '',
+        linkDisplay: '',
+        code: '',
+        repo: '',
+        status: 'Complete',
+        img: [
+            'img/project_images/c_sharp.png',
+            'img/project_images/unity.png' 
+        ],
+        description: [
+            'This  game" was created in collaboration with three other software engineering students using <a target="_blank" href="https://unity.com/products/unity-teams">Unity Teams</a>.',
+            'The game\'s scripts were coded in C# and the assets and scenes were created in <a target="_blank" href="https://unity.com/" target="_blank">Unity</a>.',
         ]
     },
     {
         title: 'Shoot \'em up Game',
         display: true,
-        link: '/game/',
-        linkDisplay: 'michaeldsilva.com/game',
-        code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
+        link: '/spacegame/',
+        linkDisplay: 'michaeldsilva.com/spacegame',
+        code: '',
         repo: '',
         status: 'Complete',
         img: [
@@ -53,8 +73,26 @@ export default [
         ]
     },
     {
+        title: 'Maze Runner Game',
+        display: true,
+        link: '/mazerunnergame/',
+        linkDisplay: 'michaeldsilva.com/mazerunnergame',
+        code: 'https://github.com/michaelddsilva/maze-runner-game',
+        repo: 'maze-runner-game',
+        status: 'Complete',
+        img: [
+            'img/project_images/c_sharp.png',
+            'img/project_images/unity.png' 
+        ],
+        description: [
+            'This "Maze Runner" game was created for a game programming course.',
+            'The game\'s scripts were coded in C# and the assets and scenes were created in <a target="_blank" href="https://unity.com/" target="_blank">Unity</a>.',
+            'NOTE: The game will automatically open in full screen and the quit game button will cause the game to freeze.',
+        ]
+    },
+    {
         title: 'Full Stack Web Application',
-        display: false,
+        display: true,
         link: '',
         linkDisplay: 'link',
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
@@ -68,7 +106,7 @@ export default [
         description: [
             'The Full Stack Web App was created with the MEAN (MongoDB, Express, Angular and Node.js) stack.',
             'The web app was created for a final project for Web Technologies course.',
-            'The app uses the Angular framework and connects to a MongoDB database.',
+            'The multi-page app uses the Angular framework and connects to a MongoDB database.',
         ]
     },
     {
@@ -86,11 +124,12 @@ export default [
         description: [
             'Designed a mobile application with three other engineering students.',
             'Designed and implemented the server and DB logic for the server (Node.js, Express, MongoDB)',
+            'This server was designed to be used a run planner/tracker application, but it does have some functionalities that could be used in any application.'
         ]
     },
     {
         title: 'Relational DB Application',
-        display: false,
+        display: true,
         link: '',
         linkDisplay: '',
         code: 'https://github.com/michaelddsilva/michaelddsilva.github.io',
@@ -121,6 +160,7 @@ export default [
         ],
         description: [
             'This application was created for a Software Engineering Design course with four other software engineering students.',
+            'A sleep tracker to keep you off your phone at night. Senses phone activity during sleep hours and scores your sleep pattern',
             'The application was created in Android Studio and connects to a <a target="_blank" href="https://firebase.google.com/">Google Firebase</a> database.',
         ]
     },

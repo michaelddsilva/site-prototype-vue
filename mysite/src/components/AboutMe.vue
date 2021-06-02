@@ -56,9 +56,8 @@
 									<br/>
 									<br/>
 									<p>
-										<i>{{data.scholarships}}</i>
+										<i v-for="award in data.scholarships" v-bind:key="award">{{award}} <br/></i>
 									</p>
-									<br/>
 									<br/>
 									<img :src="data.facultyIMG" />
 								</td>

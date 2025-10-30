@@ -7,6 +7,6 @@ export default [
         github: ["https://github.com/michaelddsilva", "github.com/michaelddsilva"],
         favouriteLanguages: ["JavaScript", "C#", "Java"],
         favouriteFramework: "Vue.js",
-        skillSets: ["Web Developer", "Software Developer", "Consultant"]
+        skillSets: ["Full Stack Development", "Consulting"]
     }
 ]
